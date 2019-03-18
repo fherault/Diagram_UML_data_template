@@ -33,6 +33,7 @@
         <COMPID name="northern_blot" mc="Standard.Class" uid="2ce6489b-dec1-4c3f-9147-539f85f0e59b"/>
         <COMPID name="zymographie" mc="Standard.Class" uid="1e4b3dec-1f34-40fe-9fd4-c313fe76e91f"/>
         <COMPID name="Class" mc="Standard.Class" uid="5e6fbd23-2fd2-4ee1-b8c8-1e4709c04b50"/>
+        <COMPID name="Class1" mc="Standard.Class" uid="8470845d-3a0f-4575-9de6-a8da3eb1e26d"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="project1_test Class diagram" mc="Standard.ClassDiagram" uid="47ea7deb-550c-4a67-9118-7d7dbabc89db"/>
