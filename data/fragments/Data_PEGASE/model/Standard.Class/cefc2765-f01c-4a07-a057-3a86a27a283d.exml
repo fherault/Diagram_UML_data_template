@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="electrochemical_measurement" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="electrochemicalMeasurement" version="4">
   <OBJECT>
-    <ID name="electrochemical_measurement" mc="Standard.Class" uid="cefc2765-f01c-4a07-a057-3a86a27a283d"/>
+    <ID name="electrochemicalMeasurement" mc="Standard.Class" uid="cefc2765-f01c-4a07-a057-3a86a27a283d"/>
     <PID name="project1_test" mc="Standard.Package" uid="1659c626-5d02-4f8a-b4ba-24bce7848e7b"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[electrochemical_measurement]]></ATT>
+      <ATT name="Name"><![CDATA[electrochemicalMeasurement]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -38,7 +38,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="osmolarite" mc="Standard.Class" uid="0a1370e2-92cf-4a6e-8ed4-4800067e4ef5"/>
+              <ID name="osmolarity" mc="Standard.Class" uid="0a1370e2-92cf-4a6e-8ed4-4800067e4ef5"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

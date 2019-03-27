@@ -6,6 +6,4 @@ Ce répertoire correspond au workspace de modelio 3.8 pour développer le diagra
 
 ## Vocabulaire pour les contraintes:
 
-- has unit
-- nullable
 - 

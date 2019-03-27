@@ -17,7 +17,7 @@
     <DEPENDENCIES>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="testSample" mc="Standard.Attribute" uid="1fbb4250-a0db-425e-9e80-f0b56c37afd6"/>
+          <ID name="samplePortion" mc="Standard.Attribute" uid="1fbb4250-a0db-425e-9e80-f0b56c37afd6"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -31,7 +31,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[testSample]]></ATT>
+            <ATT name="Name"><![CDATA[samplePortion]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -43,7 +43,7 @@
                 <ID name="" mc="Standard.Constraint" uid="c1d78435-2c30-46a4-925b-4eeca8498994"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit mg]]></ATT>
+                  <ATT name="Body"><![CDATA[has unit: mg]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>

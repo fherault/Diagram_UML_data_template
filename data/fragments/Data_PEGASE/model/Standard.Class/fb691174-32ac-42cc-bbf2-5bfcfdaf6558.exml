@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="gel_electrophoresis" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="gelElectrophoresis" version="4">
   <OBJECT>
-    <ID name="gel_electrophoresis" mc="Standard.Class" uid="fb691174-32ac-42cc-bbf2-5bfcfdaf6558"/>
+    <ID name="gelElectrophoresis" mc="Standard.Class" uid="fb691174-32ac-42cc-bbf2-5bfcfdaf6558"/>
     <PID name="project1_test" mc="Standard.Package" uid="1659c626-5d02-4f8a-b4ba-24bce7848e7b"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[gel_electrophoresis]]></ATT>
+      <ATT name="Name"><![CDATA[gelElectrophoresis]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="type_gel" mc="Standard.Attribute" uid="9501217d-3e98-46fb-ad97-b8aae4dce42b"/>
+          <ID name="gelType" mc="Standard.Attribute" uid="9501217d-3e98-46fb-ad97-b8aae4dce42b"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -31,7 +31,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[type_gel]]></ATT>
+            <ATT name="Name"><![CDATA[gelType]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -41,7 +41,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="type_echantillon" mc="Standard.Attribute" uid="3b17ac5d-4831-46aa-badb-430192e63cd4"/>
+          <ID name="sampleType" mc="Standard.Attribute" uid="3b17ac5d-4831-46aa-badb-430192e63cd4"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -55,7 +55,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[type_echantillon]]></ATT>
+            <ATT name="Name"><![CDATA[sampleType]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -65,7 +65,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="nature_tampon" mc="Standard.Attribute" uid="2874c485-d41b-46f6-ad9c-24b9ed77290d"/>
+          <ID name="buffer" mc="Standard.Attribute" uid="2874c485-d41b-46f6-ad9c-24b9ed77290d"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -79,7 +79,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[nature_tampon]]></ATT>
+            <ATT name="Name"><![CDATA[buffer]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -89,7 +89,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="voltage_duree" mc="Standard.Attribute" uid="582e4da8-c55b-4067-a1db-dc75367453b4"/>
+          <ID name="electrophoresisCondition" mc="Standard.Attribute" uid="582e4da8-c55b-4067-a1db-dc75367453b4"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -103,13 +103,29 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[voltage_duree]]></ATT>
+            <ATT name="Name"><![CDATA[electrophoresisCondition]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
               <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
             </LINK>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="24b0c062-fb5d-40d4-b235-5b30f863a11d"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[voltage and time]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
