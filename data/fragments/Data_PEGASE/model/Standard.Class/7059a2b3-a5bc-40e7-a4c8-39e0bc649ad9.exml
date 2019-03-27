@@ -335,7 +335,7 @@ sous projet et n° d'échantillon incrémenté.]]></ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="electrochemical_measurement" mc="Standard.Class" uid="cefc2765-f01c-4a07-a057-3a86a27a283d"/>
+              <ID name="electrochemicalMeasurement" mc="Standard.Class" uid="cefc2765-f01c-4a07-a057-3a86a27a283d"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
