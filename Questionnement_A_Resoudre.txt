@@ -1,18 +1,21 @@
 Chromametry
-Spécifier result: string, float ?? unité ??
+Spécifier result: float ?? nmoles/ml ???
 
 
 Chromatography:
 samplePortion unité ??? has unit: mL or mg???
-Spécifier result: string, float ?? unité ??
+Spécifier result: float
+has unit: nmoles/ml
+min=0
+nullable
 
 
 Electrochemical measurement
 -> osmolarity
-Spécifier result: string, float ?? unité ??
+Spécifier result: float ?? unité ??
 
 -> bloodGases
-Spécifier result: string, float ?? unité ??
+Spécifier result: float ?? unité ??
 
 -> pH
 samplePortion unité ??? has unit: mL or mg???

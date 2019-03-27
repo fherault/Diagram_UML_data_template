@@ -43,7 +43,8 @@
                 <ID name="" mc="Standard.Constraint" uid="ae70944f-f16a-4b02-a4d8-5046fbe85547"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: mL]]></ATT>
+                  <ATT name="Body"><![CDATA[has unit: mL
+>0]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>

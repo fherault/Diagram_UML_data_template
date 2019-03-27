@@ -14,25 +14,27 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="GeneralAnalysis" mc="Standard.Class" uid="7059a2b3-a5bc-40e7-a4c8-39e0bc649ad9"/>
-        <COMPID name="Calorimetry" mc="Standard.Class" uid="ac35d55f-f60e-40df-a1b3-a79b2998b33c"/>
+        <COMPID name="generalAnalysis" mc="Standard.Class" uid="7059a2b3-a5bc-40e7-a4c8-39e0bc649ad9"/>
+        <COMPID name="calorimetry" mc="Standard.Class" uid="ac35d55f-f60e-40df-a1b3-a79b2998b33c"/>
         <COMPID name="behavior" mc="Standard.Class" uid="17a692f7-fe20-4562-a567-16b9e2672ebe"/>
-        <COMPID name="energie_brute_liquide" mc="Standard.Class" uid="a07138c3-9a44-4cfa-8ef4-20f466ffba0d"/>
-        <COMPID name="energie_brute_solide" mc="Standard.Class" uid="955db694-42df-47c3-a1b6-ecca65a48147"/>
+        <COMPID name="crudeLiquidEnergy" mc="Standard.Class" uid="a07138c3-9a44-4cfa-8ef4-20f466ffba0d"/>
+        <COMPID name="crudeSolidEnergy" mc="Standard.Class" uid="955db694-42df-47c3-a1b6-ecca65a48147"/>
         <COMPID name="chromametry" mc="Standard.Class" uid="fe8c82ad-fca8-4161-ba39-59ce299caa71"/>
         <COMPID name="chromatography" mc="Standard.Class" uid="e5612254-d232-4c98-9f88-5fe40b042ff8"/>
-        <COMPID name="electrochemical_measurement" mc="Standard.Class" uid="cefc2765-f01c-4a07-a057-3a86a27a283d"/>
-        <COMPID name="gaz_sang" mc="Standard.Class" uid="fd973a7f-f588-42ed-bcec-8fdca3c6b8c3"/>
-        <COMPID name="osmolarite" mc="Standard.Class" uid="0a1370e2-92cf-4a6e-8ed4-4800067e4ef5"/>
+        <COMPID name="electrochemicalMeasurement" mc="Standard.Class" uid="cefc2765-f01c-4a07-a057-3a86a27a283d"/>
+        <COMPID name="bloodGases" mc="Standard.Class" uid="fd973a7f-f588-42ed-bcec-8fdca3c6b8c3"/>
+        <COMPID name="osmolarity" mc="Standard.Class" uid="0a1370e2-92cf-4a6e-8ed4-4800067e4ef5"/>
         <COMPID name="pH" mc="Standard.Class" uid="1d2c7a69-e249-4697-a12b-bf7c82a613fc"/>
         <COMPID name="electrophoresis" mc="Standard.Class" uid="2e988002-0a4c-4c77-b8c0-feb36db0fd22"/>
-        <COMPID name="capillary_electrophoresis" mc="Standard.Class" uid="62ba77aa-870a-4c83-834a-1b0bdbe672aa"/>
-        <COMPID name="gel_electrophoresis" mc="Standard.Class" uid="fb691174-32ac-42cc-bbf2-5bfcfdaf6558"/>
+        <COMPID name="capillaryElectrophoresis" mc="Standard.Class" uid="62ba77aa-870a-4c83-834a-1b0bdbe672aa"/>
+        <COMPID name="gelElectrophoresis" mc="Standard.Class" uid="fb691174-32ac-42cc-bbf2-5bfcfdaf6558"/>
         <COMPID name="2d_gel_electrophoresis" mc="Standard.Class" uid="088ad8e2-8493-47cc-b223-3699ae8d1a41"/>
         <COMPID name="staining" mc="Standard.Class" uid="1fab2371-f281-4f96-a5cd-9a04d1163389"/>
         <COMPID name="northern_blot" mc="Standard.Class" uid="2ce6489b-dec1-4c3f-9147-539f85f0e59b"/>
         <COMPID name="zymographie" mc="Standard.Class" uid="1e4b3dec-1f34-40fe-9fd4-c313fe76e91f"/>
         <COMPID name="Class" mc="Standard.Class" uid="5e6fbd23-2fd2-4ee1-b8c8-1e4709c04b50"/>
+        <COMPID name="UPLC" mc="Standard.Class" uid="b8a9ed10-e928-467a-b138-18bb6649d7b5"/>
+        <COMPID name="HPLC" mc="Standard.Class" uid="c978b82a-7b58-47c6-b29a-8fb22c030e87"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="project1_test Class diagram" mc="Standard.ClassDiagram" uid="47ea7deb-550c-4a67-9118-7d7dbabc89db"/>
