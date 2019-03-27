@@ -1,0 +1,27 @@
+Chromametry
+Spécifier result: string, float ?? unité ??
+
+
+Chromatography:
+samplePortion unité ??? has unit: mL or mg???
+Spécifier result: string, float ?? unité ??
+
+
+Electrochemical measurement
+-> osmolarity
+Spécifier result: string, float ?? unité ??
+
+-> bloodGases
+Spécifier result: string, float ?? unité ??
+
+-> pH
+samplePortion unité ??? has unit: mL or mg???
+waitingTime has unit: minutes or hours ????
+Spécifier result: string, float ?? unité ??
+
+Electrophoresis
+-> capillaryElectrophoresis
+Spécifier result: string, float ?? unité ??
+
+-> gelElectrophoresis
+electrophoresisCondition: spécifier Voltage et temps d'elecrophorese en un seul champs ou bien prévoir un champ tension et champ temps d'electrohorese ??
