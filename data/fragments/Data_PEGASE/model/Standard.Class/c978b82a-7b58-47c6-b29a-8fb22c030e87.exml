@@ -43,9 +43,9 @@
                 <ID name="" mc="Standard.Constraint" uid="506ad5d8-da88-4c30-8d94-ff9b1900fe93"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: nmoles/ml
+                  <ATT name="Body"><![CDATA[has unit: g/100g
 min=0
-nullable]]></ATT>
+nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -82,9 +82,9 @@ nullable]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="eb13feed-b0de-48ad-8c30-9d435b897e58"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: nmoles/ml
+                  <ATT name="Body"><![CDATA[has unit: g/100g
 min=0
-nullable]]></ATT>
+nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -121,9 +121,9 @@ nullable]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="47c033be-c3f0-469b-bba3-607ec8bd4c4b"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: nmoles/ml
+                  <ATT name="Body"><![CDATA[has unit: g/100g
 min=0
-nullable]]></ATT>
+nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -160,9 +160,9 @@ nullable]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="cbdc0d22-4aab-454f-9169-ba6c4bd803dc"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: nmoles/ml
+                  <ATT name="Body"><![CDATA[has unit: g/100g
 min=0
-nullable]]></ATT>
+nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -199,9 +199,9 @@ nullable]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="1dd67459-1986-4491-921a-6fab63a1a8ed"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: nmoles/ml
+                  <ATT name="Body"><![CDATA[has unit: g/100g
 min=0
-nullable]]></ATT>
+nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -238,9 +238,9 @@ nullable]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="e4ee3f20-9fb6-419e-812c-c3cc1a80a728"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: nmoles/ml
+                  <ATT name="Body"><![CDATA[has unit: g/100g
 min=0
-nullable]]></ATT>
+nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -277,9 +277,9 @@ nullable]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="544ac5f6-dd62-47aa-9edc-0af2a349737a"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: nmoles/ml
+                  <ATT name="Body"><![CDATA[has unit: g/100g
 min=0
-nullable]]></ATT>
+nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -316,9 +316,9 @@ nullable]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="aabc2190-58c0-4bbb-8435-3431e6987fb4"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: nmoles/ml
+                  <ATT name="Body"><![CDATA[has unit: g/100g
 min=0
-nullable]]></ATT>
+nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -355,9 +355,9 @@ nullable]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="fbf86343-6790-4db2-833e-a6bdede8a84f"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: nmoles/ml
+                  <ATT name="Body"><![CDATA[has unit: g/100g
 min=0
-nullable]]></ATT>
+nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -394,9 +394,9 @@ nullable]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="d0ad6d7a-26e6-49d0-b78f-a5c2b1bea7e7"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: nmoles/ml
+                  <ATT name="Body"><![CDATA[has unit: g/100g
 min=0
-nullable]]></ATT>
+nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -433,9 +433,9 @@ nullable]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="86ea7e03-da52-424d-9104-550af75c8f6d"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: nmoles/ml
+                  <ATT name="Body"><![CDATA[has unit: g/100g
 min=0
-nullable]]></ATT>
+nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -472,9 +472,9 @@ nullable]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="7c8c9770-becc-4575-b69c-447c10ac69fb"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: nmoles/ml
+                  <ATT name="Body"><![CDATA[has unit: g/100g
 min=0
-nullable]]></ATT>
+nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -511,9 +511,9 @@ nullable]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="e5418cff-9e35-4d0a-af6e-62120307700d"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: nmoles/ml
+                  <ATT name="Body"><![CDATA[has unit: g/100g
 min=0
-nullable]]></ATT>
+nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -550,9 +550,9 @@ nullable]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="ad2a703c-3c88-44e9-8f8d-afc5e36f8ce0"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: nmoles/ml
+                  <ATT name="Body"><![CDATA[has unit: g/100g
 min=0
-nullable]]></ATT>
+nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -589,9 +589,9 @@ nullable]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="7e1a0eca-1384-4685-9d09-572ceb0b8e6d"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: nmoles/ml
+                  <ATT name="Body"><![CDATA[has unit: g/100g
 min=0
-nullable]]></ATT>
+nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -628,9 +628,9 @@ nullable]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="1d6852c4-c343-4bff-82fd-8c973f1f27b7"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: nmoles/ml
+                  <ATT name="Body"><![CDATA[has unit: g/100g
 min=0
-nullable]]></ATT>
+nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -667,9 +667,9 @@ nullable]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="640c13a5-d5c1-440d-ba39-e79ef21bf1a6"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: nmoles/ml
+                  <ATT name="Body"><![CDATA[has unit: g/100g
 min=0
-nullable]]></ATT>
+nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -706,9 +706,9 @@ nullable]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="90668248-08a5-439a-b2bb-d88cf3d9f0a8"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: nmoles/ml
+                  <ATT name="Body"><![CDATA[has unit: g/100g
 min=0
-nullable]]></ATT>
+nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -745,9 +745,9 @@ nullable]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="2069f765-eec1-4db0-98a4-d80f63d4eaf6"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: nmoles/ml
+                  <ATT name="Body"><![CDATA[has unit: g/100g
 min=0
-nullable]]></ATT>
+nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -784,9 +784,9 @@ nullable]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="7673cfc9-11d2-49fb-af12-c1ec7e980b07"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: nmoles/ml
+                  <ATT name="Body"><![CDATA[has unit: g/100g
 min=0
-nullable]]></ATT>
+nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -823,9 +823,9 @@ nullable]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="03c1d1c7-4eb0-4a47-acf3-4a83f65b1683"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: nmoles/ml
+                  <ATT name="Body"><![CDATA[has unit: g/100g
 min=0
-nullable]]></ATT>
+nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -862,9 +862,9 @@ nullable]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="36b4da4f-b509-4f83-bad5-8e0faff81d77"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: nmoles/ml
+                  <ATT name="Body"><![CDATA[has unit: g/100g
 min=0
-nullable]]></ATT>
+nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
