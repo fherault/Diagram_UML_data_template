@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="zymographie" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="nitrogen" version="4">
   <OBJECT>
-    <ID name="zymographie" mc="Standard.Class" uid="1e4b3dec-1f34-40fe-9fd4-c313fe76e91f"/>
+    <ID name="nitrogen" mc="Standard.Class" uid="5d24d397-233e-483e-8463-f34bc3d4caa8"/>
     <PID name="project1_test" mc="Standard.Package" uid="1659c626-5d02-4f8a-b4ba-24bce7848e7b"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[zymographie]]></ATT>
+      <ATT name="Name"><![CDATA[nitrogen]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="substrateType" mc="Standard.Attribute" uid="a7de5a79-d180-49c8-8c5b-556ae504a99a"/>
+          <ID name="internalControl" mc="Standard.Attribute" uid="55a1e6a0-a6ca-45c1-8cdc-d4ec500102ca"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -31,7 +31,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[substrateType]]></ATT>
+            <ATT name="Name"><![CDATA[internalControl]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -41,7 +41,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="substrateMatrixType" mc="Standard.Attribute" uid="75367dd8-58cb-4460-ae0c-a4e3cb648ff4"/>
+          <ID name="catalyst" mc="Standard.Attribute" uid="0a6988e6-e6c2-425a-98a8-cc89810524c1"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -55,7 +55,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[substrateMatrixType]]></ATT>
+            <ATT name="Name"><![CDATA[catalyst]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>

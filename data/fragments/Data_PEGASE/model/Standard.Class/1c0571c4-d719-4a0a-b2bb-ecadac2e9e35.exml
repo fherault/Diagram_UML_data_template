@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="zymographie" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="cookingLoss" version="4">
   <OBJECT>
-    <ID name="zymographie" mc="Standard.Class" uid="1e4b3dec-1f34-40fe-9fd4-c313fe76e91f"/>
+    <ID name="cookingLoss" mc="Standard.Class" uid="1c0571c4-d719-4a0a-b2bb-ecadac2e9e35"/>
     <PID name="project1_test" mc="Standard.Package" uid="1659c626-5d02-4f8a-b4ba-24bce7848e7b"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[zymographie]]></ATT>
+      <ATT name="Name"><![CDATA[cookingLoss]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="substrateType" mc="Standard.Attribute" uid="a7de5a79-d180-49c8-8c5b-556ae504a99a"/>
+          <ID name="cookingTime" mc="Standard.Attribute" uid="4ba72d5a-4d38-47fe-b267-7707732087b6"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -31,17 +31,30 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[substrateType]]></ATT>
+            <ATT name="Name"><![CDATA[cookingTime]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
-              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+              <FOREIGNID name="integer" mc="Standard.DataType" uid="00000004-0000-0009-0000-000000000000"/>
             </LINK>
+            <COMP relation="ConstraintDefinition">
+              <OBJECT>
+                <ID name="" mc="Standard.Constraint" uid="840a15ef-4827-4b45-9127-4f27eed7cb46"/>
+                <ATTRIBUTES>
+                  <ATT name="BaseClass"></ATT>
+                  <ATT name="Body"><![CDATA[has unit: minutes]]></ATT>
+                  <ATT name="Language"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="substrateMatrixType" mc="Standard.Attribute" uid="75367dd8-58cb-4460-ae0c-a4e3cb648ff4"/>
+          <ID name="temperature" mc="Standard.Attribute" uid="c10ad93e-d744-47b6-8cf6-5a6a0f069f1d"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -55,13 +68,26 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[substrateMatrixType]]></ATT>
+            <ATT name="Name"><![CDATA[temperature]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
-              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+              <FOREIGNID name="integer" mc="Standard.DataType" uid="00000004-0000-0009-0000-000000000000"/>
             </LINK>
+            <COMP relation="ConstraintDefinition">
+              <OBJECT>
+                <ID name="" mc="Standard.Constraint" uid="9b8d223c-3875-493b-9fb5-c4efa838e84b"/>
+                <ATTRIBUTES>
+                  <ATT name="BaseClass"></ATT>
+                  <ATT name="Body"><![CDATA[has unit: celsius]]></ATT>
+                  <ATT name="Language"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>

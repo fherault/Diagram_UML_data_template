@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="gelElectrophoresis" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="histology" version="4">
   <OBJECT>
-    <ID name="gelElectrophoresis" mc="Standard.Class" uid="fb691174-32ac-42cc-bbf2-5bfcfdaf6558"/>
+    <ID name="histology" mc="Standard.Class" uid="7f7e2386-cc41-4d5e-a3b3-3932874c02a5"/>
     <PID name="project1_test" mc="Standard.Package" uid="1659c626-5d02-4f8a-b4ba-24bce7848e7b"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[gelElectrophoresis]]></ATT>
+      <ATT name="Name"><![CDATA[histology]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="gelType" mc="Standard.Attribute" uid="9501217d-3e98-46fb-ad97-b8aae4dce42b"/>
+          <ID name="embedding" mc="Standard.Attribute" uid="3be9c4ce-c848-4b66-969c-862e0ccd5890"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -31,7 +31,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[gelType]]></ATT>
+            <ATT name="Name"><![CDATA[embedding]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -41,7 +41,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="sampleType" mc="Standard.Attribute" uid="3b17ac5d-4831-46aa-badb-430192e63cd4"/>
+          <ID name="fixation" mc="Standard.Attribute" uid="ca2a9fcc-1001-4c1d-a180-fb1aee863128"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -55,7 +55,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[sampleType]]></ATT>
+            <ATT name="Name"><![CDATA[fixation]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -65,7 +65,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="buffer" mc="Standard.Attribute" uid="2874c485-d41b-46f6-ad9c-24b9ed77290d"/>
+          <ID name="sliceSize" mc="Standard.Attribute" uid="fcf71bc0-dd01-41b0-807a-1cbf4a68d5f3"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -79,83 +79,19 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[buffer]]></ATT>
+            <ATT name="Name"><![CDATA[sliceSize]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
               <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="electrophoresisCondition" mc="Standard.Attribute" uid="582e4da8-c55b-4067-a1db-dc75367453b4"/>
-          <ATTRIBUTES>
-            <ATT name="TypeConstraint"></ATT>
-            <ATT name="Value"></ATT>
-            <ATT name="TargetIsClass">false</ATT>
-            <ATT name="Changeable">ReadWrite</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[electrophoresisCondition]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Type">
-              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
-            </LINK>
-            <COMP relation="Descriptor">
-              <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="24b0c062-fb5d-40d4-b235-5b30f863a11d"/>
-                <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[voltage and time]]></ATT>
-                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
-                  <ATT name="Name"></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Model">
-                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="sampleLoadingAmount" mc="Standard.Attribute" uid="39b2b24b-d55a-4266-a35a-ce5221928f8f"/>
-          <ATTRIBUTES>
-            <ATT name="TypeConstraint"></ATT>
-            <ATT name="Value"></ATT>
-            <ATT name="TargetIsClass">false</ATT>
-            <ATT name="Changeable">ReadWrite</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[sampleLoadingAmount]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Type">
-              <FOREIGNID name="integer" mc="Standard.DataType" uid="00000004-0000-0009-0000-000000000000"/>
             </LINK>
             <COMP relation="ConstraintDefinition">
               <OBJECT>
-                <ID name="" mc="Standard.Constraint" uid="c42ca79c-37da-4223-9f41-07092a1af456"/>
+                <ID name="" mc="Standard.Constraint" uid="e2f7ffae-989a-49d6-9b76-75f6a09367f7"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit : µg]]></ATT>
+                  <ATT name="Body"><![CDATA[has unit: µm]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -166,7 +102,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="ladderName" mc="Standard.Attribute" uid="337090c0-e896-4e23-8dfd-378f04e6f0a9"/>
+          <ID name="magnification" mc="Standard.Attribute" uid="f489b6ac-c1f2-467c-ad25-b93619f5d60a"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -180,7 +116,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[ladderName]]></ATT>
+            <ATT name="Name"><![CDATA[magnification]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -189,57 +125,112 @@
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
-      </COMP>
-      <COMP relation="Parent">
         <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="6e5ea0d7-a588-4ba2-b7b1-e4d61762edd7"/>
+          <ID name="picture resolution" mc="Standard.Attribute" uid="853f9077-06de-4a12-8400-e0dbffb42904"/>
           <ATTRIBUTES>
-            <ATT name="Discriminator"></ATT>
-            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[picture resolution]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
-            <LINK relation="SuperType">
-              <ID name="2dGelElectrophoresis" mc="Standard.Class" uid="088ad8e2-8493-47cc-b223-3699ae8d1a41"/>
+            <LINK relation="Type">
+              <FOREIGNID name="integer" mc="Standard.DataType" uid="00000004-0000-0009-0000-000000000000"/>
+            </LINK>
+            <COMP relation="ConstraintDefinition">
+              <OBJECT>
+                <ID name="" mc="Standard.Constraint" uid="2e82e25a-f703-40eb-9ba5-1f3b4cea236a"/>
+                <ATTRIBUTES>
+                  <ATT name="BaseClass"></ATT>
+                  <ATT name="Body"><![CDATA[has unit: pixel/µm]]></ATT>
+                  <ATT name="Language"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="numberMeasuringField" mc="Standard.Attribute" uid="39241edf-6f00-402b-a22a-b2b636004c98"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[numberMeasuringField]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="f82f84fe-61dc-4c20-a2aa-7512df3d095f"/>
+          <ID name="pictureNumber" mc="Standard.Attribute" uid="48c5bb62-6da7-4777-9eda-2bc2f2130218"/>
           <ATTRIBUTES>
-            <ATT name="Discriminator"></ATT>
-            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[pictureNumber]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
-            <LINK relation="SuperType">
-              <ID name="northernBlot" mc="Standard.Class" uid="2ce6489b-dec1-4c3f-9147-539f85f0e59b"/>
+            <LINK relation="Type">
+              <FOREIGNID name="integer" mc="Standard.DataType" uid="00000004-0000-0009-0000-000000000000"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="13b2c375-fff8-46ca-8079-6987adbc6f0f"/>
+          <ID name="organelleIdentification" mc="Standard.Attribute" uid="3b2b4c8a-9bad-4b8f-adb7-ea9163d7e74b"/>
           <ATTRIBUTES>
-            <ATT name="Discriminator"></ATT>
-            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[organelleIdentification]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
-            <LINK relation="SuperType">
-              <ID name="zymographie" mc="Standard.Class" uid="1e4b3dec-1f34-40fe-9fd4-c313fe76e91f"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="af34261a-aafa-4375-9913-e830162ec784"/>
-          <ATTRIBUTES>
-            <ATT name="Discriminator"></ATT>
-            <ATT name="Name"><![CDATA[Generalization]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="SuperType">
-              <ID name="westernBlot" mc="Standard.Class" uid="d46e105d-35f6-4058-a267-99b45339b3e9"/>
+            <LINK relation="Type">
+              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

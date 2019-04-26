@@ -28,13 +28,24 @@
         <COMPID name="electrophoresis" mc="Standard.Class" uid="2e988002-0a4c-4c77-b8c0-feb36db0fd22"/>
         <COMPID name="capillaryElectrophoresis" mc="Standard.Class" uid="62ba77aa-870a-4c83-834a-1b0bdbe672aa"/>
         <COMPID name="gelElectrophoresis" mc="Standard.Class" uid="fb691174-32ac-42cc-bbf2-5bfcfdaf6558"/>
-        <COMPID name="2d_gel_electrophoresis" mc="Standard.Class" uid="088ad8e2-8493-47cc-b223-3699ae8d1a41"/>
-        <COMPID name="staining" mc="Standard.Class" uid="1fab2371-f281-4f96-a5cd-9a04d1163389"/>
-        <COMPID name="northern_blot" mc="Standard.Class" uid="2ce6489b-dec1-4c3f-9147-539f85f0e59b"/>
+        <COMPID name="2dGelElectrophoresis" mc="Standard.Class" uid="088ad8e2-8493-47cc-b223-3699ae8d1a41"/>
+        <COMPID name="northernBlot" mc="Standard.Class" uid="2ce6489b-dec1-4c3f-9147-539f85f0e59b"/>
         <COMPID name="zymographie" mc="Standard.Class" uid="1e4b3dec-1f34-40fe-9fd4-c313fe76e91f"/>
-        <COMPID name="Class" mc="Standard.Class" uid="5e6fbd23-2fd2-4ee1-b8c8-1e4709c04b50"/>
         <COMPID name="UPLC" mc="Standard.Class" uid="b8a9ed10-e928-467a-b138-18bb6649d7b5"/>
         <COMPID name="HPLC" mc="Standard.Class" uid="c978b82a-7b58-47c6-b29a-8fb22c030e87"/>
+        <COMPID name="westernBlot" mc="Standard.Class" uid="d46e105d-35f6-4058-a267-99b45339b3e9"/>
+        <COMPID name="flowCytometry" mc="Standard.Class" uid="6f511566-4082-48a6-bcbb-cde9b88d1327"/>
+        <COMPID name="gravimetry" mc="Standard.Class" uid="1a753d65-c5f8-468d-bc3b-9f651c9522b1"/>
+        <COMPID name="dryMatterQuantification" mc="Standard.Class" uid="01f2aedf-4b2b-4178-999e-c94689b29ca4"/>
+        <COMPID name="lipid" mc="Standard.Class" uid="2d7204d7-2c69-4e68-89d1-9213d2a9c463"/>
+        <COMPID name="fibers" mc="Standard.Class" uid="bfe16639-46b2-40c8-b002-c5c6e7797e63"/>
+        <COMPID name="starchPolarimetricMethod " mc="Standard.Class" uid="ad830a71-2c8b-451b-8d2a-9a95fbff9aed"/>
+        <COMPID name="nitrogen" mc="Standard.Class" uid="5d24d397-233e-483e-8463-f34bc3d4caa8"/>
+        <COMPID name="dripLoss" mc="Standard.Class" uid="0d344336-b431-425d-b8d6-8aacfda8edac"/>
+        <COMPID name="cookingLoss" mc="Standard.Class" uid="1c0571c4-d719-4a0a-b2bb-ecadac2e9e35"/>
+        <COMPID name="imaging" mc="Standard.Class" uid="33465591-85de-4fc8-a071-91996b41d370"/>
+        <COMPID name="cellMicroscopy" mc="Standard.Class" uid="bf2bed06-39e6-4432-94af-89e5f05db509"/>
+        <COMPID name="histology" mc="Standard.Class" uid="7f7e2386-cc41-4d5e-a3b3-3932874c02a5"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="project1_test Class diagram" mc="Standard.ClassDiagram" uid="47ea7deb-550c-4a67-9118-7d7dbabc89db"/>
