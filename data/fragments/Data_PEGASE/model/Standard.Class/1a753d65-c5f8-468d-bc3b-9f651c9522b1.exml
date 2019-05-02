@@ -43,7 +43,7 @@
                 <ID name="" mc="Standard.Constraint" uid="08f64310-e4ea-441b-a9c3-d5e2f7ffc693"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: mg]]></ATT>
+                  <ATT name="Body"><![CDATA[has unit: mg or percent]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -102,7 +102,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="dryMatterQuantification" mc="Standard.Class" uid="01f2aedf-4b2b-4178-999e-c94689b29ca4"/>
+              <ID name="dryMatterOrMineralQuantification" mc="Standard.Class" uid="01f2aedf-4b2b-4178-999e-c94689b29ca4"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

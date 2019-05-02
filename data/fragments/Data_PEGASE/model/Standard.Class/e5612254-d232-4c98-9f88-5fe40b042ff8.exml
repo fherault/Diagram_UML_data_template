@@ -80,7 +80,7 @@
       </COMP>
       <COMP relation="Parent">
         <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="94b6fed3-8869-40ca-b9ed-934cbb62be35"/>
+          <ID name="Generalization" mc="Standard.Generalization" uid="2201b650-a8b0-4ca9-9915-9dfd29ffe560"/>
           <ATTRIBUTES>
             <ATT name="Discriminator"></ATT>
             <ATT name="Name"><![CDATA[Generalization]]></ATT>
@@ -88,12 +88,12 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="UPLC" mc="Standard.Class" uid="b8a9ed10-e928-467a-b138-18bb6649d7b5"/>
+              <ID name="hplc" mc="Standard.Class" uid="c978b82a-7b58-47c6-b29a-8fb22c030e87"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="8a5581c8-a13a-4b7c-a141-0aa568bd4b50"/>
+          <ID name="Generalization" mc="Standard.Generalization" uid="a9efcc6f-19b5-4119-bb4a-9bbb229de8d8"/>
           <ATTRIBUTES>
             <ATT name="Discriminator"></ATT>
             <ATT name="Name"><![CDATA[Generalization]]></ATT>
@@ -101,7 +101,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="HPLC" mc="Standard.Class" uid="c978b82a-7b58-47c6-b29a-8fb22c030e87"/>
+              <ID name="uplc" mc="Standard.Class" uid="b8a9ed10-e928-467a-b138-18bb6649d7b5"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UPLC" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="uplc" version="4">
   <OBJECT>
-    <ID name="UPLC" mc="Standard.Class" uid="b8a9ed10-e928-467a-b138-18bb6649d7b5"/>
+    <ID name="uplc" mc="Standard.Class" uid="b8a9ed10-e928-467a-b138-18bb6649d7b5"/>
     <PID name="project1_test" mc="Standard.Package" uid="1659c626-5d02-4f8a-b4ba-24bce7848e7b"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[UPLC]]></ATT>
+      <ATT name="Name"><![CDATA[uplc]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

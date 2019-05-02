@@ -25,12 +25,12 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="capillary_electrophoresis" mc="Standard.Class" uid="62ba77aa-870a-4c83-834a-1b0bdbe672aa"/>
+              <ID name="capillaryElectrophoresis" mc="Standard.Class" uid="62ba77aa-870a-4c83-834a-1b0bdbe672aa"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="ca22b9da-141c-43f9-aaf3-bb108ffb9f1c"/>
+          <ID name="Generalization" mc="Standard.Generalization" uid="67064fea-16b6-4fae-94f4-b8cd3bf0e7c0"/>
           <ATTRIBUTES>
             <ATT name="Discriminator"></ATT>
             <ATT name="Name"><![CDATA[Generalization]]></ATT>
@@ -38,7 +38,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="gel_electrophoresis" mc="Standard.Class" uid="fb691174-32ac-42cc-bbf2-5bfcfdaf6558"/>
+              <ID name="gelElectrophoresis" mc="Standard.Class" uid="fb691174-32ac-42cc-bbf2-5bfcfdaf6558"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
