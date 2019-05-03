@@ -41,7 +41,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="cycleTemperature" mc="Standard.Attribute" uid="1c2d40e0-85e4-4f2c-8b8e-e1c8ef77a7d4"/>
+          <ID name="temperatureCycle" mc="Standard.Attribute" uid="1c2d40e0-85e4-4f2c-8b8e-e1c8ef77a7d4"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -55,7 +55,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[cycleTemperature]]></ATT>
+            <ATT name="Name"><![CDATA[temperatureCycle]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>

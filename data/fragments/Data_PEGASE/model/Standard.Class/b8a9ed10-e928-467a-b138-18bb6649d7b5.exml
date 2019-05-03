@@ -43,8 +43,8 @@
                 <ID name="" mc="Standard.Constraint" uid="043b403b-8102-40f7-bb25-d4aeac1cbc92"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -82,8 +82,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="c2cf05b4-58fd-4e78-a9f8-1d9688390e84"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -121,8 +121,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="a44bf4d1-cbe4-47d6-938a-520a9646796e"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -160,47 +160,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="4b18d330-7fae-4c39-ae41-f17d742fb5f4"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
-nullable: NA, LD, LQ]]></ATT>
-                  <ATT name="Language"></ATT>
-                  <ATT name="Name"></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES></DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="result_AMQ" mc="Standard.Attribute" uid="bdb3f0a6-ff14-4010-8c87-f9bf0efae683"/>
-          <ATTRIBUTES>
-            <ATT name="TypeConstraint"></ATT>
-            <ATT name="Value"></ATT>
-            <ATT name="TargetIsClass">false</ATT>
-            <ATT name="Changeable">ReadWrite</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[result_AMQ]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Type">
-              <FOREIGNID name="float" mc="Standard.DataType" uid="00000004-0000-000b-0000-000000000000"/>
-            </LINK>
-            <COMP relation="ConstraintDefinition">
-              <OBJECT>
-                <ID name="" mc="Standard.Constraint" uid="c84e7b7b-1204-4284-8f60-32ec98791411"/>
-                <ATTRIBUTES>
-                  <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -238,8 +199,47 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="208f00bd-3522-424e-8106-1383b90586d7"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
+nullable: NA, LD, LQ]]></ATT>
+                  <ATT name="Language"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="result_Alle" mc="Standard.Attribute" uid="b204f213-9ae4-4915-b16e-17fe42db6d2a"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[result_Alle]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="float" mc="Standard.DataType" uid="00000004-0000-000b-0000-000000000000"/>
+            </LINK>
+            <COMP relation="ConstraintDefinition">
+              <OBJECT>
+                <ID name="" mc="Standard.Constraint" uid="5cbb423c-0ae1-4c53-946f-9d793027d2b4"/>
+                <ATTRIBUTES>
+                  <ATT name="BaseClass"></ATT>
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -277,8 +277,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="516f2a94-c7ab-4e0c-bf2c-7823baae82cd"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -316,8 +316,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="1595462e-13ed-42dc-a957-a40e0c24bcae"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -355,8 +355,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="0d377d46-f498-4832-a536-048cbc294ddc"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -394,8 +394,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="b3dfc02f-f957-4137-8a80-75ce5b1b94b4"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -433,8 +433,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="05ca2792-9cd2-4eee-89af-96751364d8fe"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -446,7 +446,7 @@ nullable: NA, LD, LQ]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="result_BAlb" mc="Standard.Attribute" uid="0f66d741-2494-4ccd-bce3-39c15dc7cee8"/>
+          <ID name="result_BAIb" mc="Standard.Attribute" uid="0f66d741-2494-4ccd-bce3-39c15dc7cee8"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -460,7 +460,7 @@ nullable: NA, LD, LQ]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[result_BAlb]]></ATT>
+            <ATT name="Name"><![CDATA[result_BAIb]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -472,8 +472,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="358d0d57-7a56-41a3-900d-b262974c2218"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -511,10 +511,9 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="190ed208-7826-4ee0-86dc-b48fab36bef7"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
-nullable: NA, LD, LQ
-]]></ATT>
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
+nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -551,8 +550,8 @@ nullable: NA, LD, LQ
                 <ID name="" mc="Standard.Constraint" uid="78b6ca01-b765-4900-8929-851748c7eb6d"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -590,8 +589,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="011e7c49-265b-44fb-8c1e-12d23fc234ab"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -629,8 +628,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="dee61379-471a-4012-ab99-7ae646721cec"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -668,10 +667,9 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="dbd6f6ef-1f80-4b9b-9a5c-84315b634134"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
-nullable: NA, LD, LQ
-]]></ATT>
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
+nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -708,8 +706,8 @@ nullable: NA, LD, LQ
                 <ID name="" mc="Standard.Constraint" uid="ed3b2208-9727-430a-934e-37e6d1a7de46"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -747,8 +745,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="fa24284f-f691-4cec-a08d-8e6b175fa957"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -786,8 +784,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="1fe5a5b6-d5a6-4f06-8a2e-23893acbdf15"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -825,8 +823,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="b8a22adc-882f-4117-b438-c37b264f8ed7"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -864,8 +862,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="5131ff91-3d91-46ae-899f-bae4f35fa579"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -903,8 +901,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="beb49117-d267-453d-bdf5-316a6467fe6e"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -942,8 +940,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="2e06f368-f232-43c1-8f46-a39cabcb2898"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -981,8 +979,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="dc3fe941-829c-4678-90b2-24fd52cf4072"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -1020,8 +1018,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="041d7aa5-47d0-4dbb-a75c-9f82aa47dbe5"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -1059,8 +1057,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="1cf72ea4-3536-4637-80c2-39382cada973"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -1098,8 +1096,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="45d33a22-4b02-4355-8fd7-20fe345bedcd"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -1137,8 +1135,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="1fbf0abd-e442-405c-8cde-d3c1ecb7ab54"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -1176,8 +1174,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="0bc7fad5-4bc9-4b90-96f2-a35d611eddf6"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -1215,8 +1213,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="1dbce85f-a941-42c3-9134-44222021043e"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -1254,8 +1252,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="0fcf1ac2-3ee7-4901-94a4-f9e37f76e3a2"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -1293,8 +1291,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="d50ccd8f-7c52-4e0d-b1ab-a69abc7e0b77"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -1332,8 +1330,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="ae4654e0-b7b8-4f5d-a7f5-f05db62a9ae9"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -1371,8 +1369,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="4a7dd5f7-6dbc-4ab9-abc3-a6a560cb09c7"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -1410,8 +1408,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="495b8e1f-13f8-4204-a130-b1528eacc756"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -1449,8 +1447,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="0ab7981e-85b6-49a6-bf7f-0aaf02b54517"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -1488,8 +1486,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="4ff77131-93b2-4ace-bd52-d034de390d23"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -1527,8 +1525,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="e3db6df5-e37d-4cd0-9f7b-62dcb8f18b02"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -1566,8 +1564,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="21634e8c-a746-43ff-b754-f26fdb0133fc"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -1605,47 +1603,8 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="8e9166a7-2d1d-4667-a5ed-f2ca7e016496"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
-nullable: NA, LD, LQ]]></ATT>
-                  <ATT name="Language"></ATT>
-                  <ATT name="Name"></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES></DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="result_aIle" mc="Standard.Attribute" uid="b204f213-9ae4-4915-b16e-17fe42db6d2a"/>
-          <ATTRIBUTES>
-            <ATT name="TypeConstraint"></ATT>
-            <ATT name="Value"></ATT>
-            <ATT name="TargetIsClass">false</ATT>
-            <ATT name="Changeable">ReadWrite</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[result_aIle]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Type">
-              <FOREIGNID name="float" mc="Standard.DataType" uid="00000004-0000-000b-0000-000000000000"/>
-            </LINK>
-            <COMP relation="ConstraintDefinition">
-              <OBJECT>
-                <ID name="" mc="Standard.Constraint" uid="5cbb423c-0ae1-4c53-946f-9d793027d2b4"/>
-                <ATTRIBUTES>
-                  <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: µmoles/ml
-min=0
+                  <ATT name="Body"><![CDATA[has unit: µmole/ml
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>

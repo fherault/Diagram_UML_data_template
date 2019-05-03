@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="endpointAssay" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="progressiveCurveExperiment" version="4">
   <OBJECT>
-    <ID name="endpointAssay" mc="Standard.Class" uid="2fa039ee-b02a-4008-9aec-64a28ae5e43e"/>
+    <ID name="progressiveCurveExperiment" mc="Standard.Class" uid="c97ce01a-87c1-43f3-afa0-799c2f94902e"/>
     <PID name="project1_test" mc="Standard.Package" uid="1659c626-5d02-4f8a-b4ba-24bce7848e7b"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,37 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[endpointAssay]]></ATT>
+      <ATT name="Name"><![CDATA[progressiveCurveExperiment]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="unit" mc="Standard.Attribute" uid="bcfbf9e1-ea4c-4939-a10c-85a203787bfb"/>
+          <ID name="measuredEnzyme" mc="Standard.Attribute" uid="88f9f85e-d3bb-485d-a6c7-cd9f0b1be81b"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[measuredEnzyme]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="unit" mc="Standard.Attribute" uid="12232fd0-90ab-4f2c-831e-18c176d45281"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -40,7 +64,7 @@
             </LINK>
             <COMP relation="ConstraintDefinition">
               <OBJECT>
-                <ID name="" mc="Standard.Constraint" uid="1aec6d01-3cc5-42ac-8a9f-a6e994a36ee3"/>
+                <ID name="" mc="Standard.Constraint" uid="487afd9d-8cbf-47b7-ba93-f3f000965277"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
                   <ATT name="Body"><![CDATA[<Enter constraint text here>]]></ATT>
@@ -51,7 +75,7 @@
                 <DEPENDENCIES></DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="" mc="Standard.Constraint" uid="27522c8f-9463-4f9e-886f-5534f08532dc"/>
+                <ID name="" mc="Standard.Constraint" uid="4031e46e-e823-4507-8923-5aed86899da0"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
                   <ATT name="Body"><![CDATA[has unit: mmol/L or mg/L or µmol/L or g/L]]></ATT>
@@ -62,30 +86,6 @@
                 <DEPENDENCIES></DEPENDENCIES>
               </OBJECT>
             </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="measuredMetabolite" mc="Standard.Attribute" uid="3c8a50b9-7d13-4bda-b411-9ee10a6071b9"/>
-          <ATTRIBUTES>
-            <ATT name="TypeConstraint"></ATT>
-            <ATT name="Value"></ATT>
-            <ATT name="TargetIsClass">false</ATT>
-            <ATT name="Changeable">ReadWrite</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[measuredMetabolite]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Type">
-              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
-            </LINK>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>

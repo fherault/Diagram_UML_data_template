@@ -43,7 +43,8 @@
                 <ID name="" mc="Standard.Constraint" uid="08f64310-e4ea-441b-a9c3-d5e2f7ffc693"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: mg or percent]]></ATT>
+                  <ATT name="Body"><![CDATA[has unit: mg
+min>0]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -81,7 +82,7 @@
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
                   <ATT name="Body"><![CDATA[has unit: mg
->0]]></ATT>
+]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>

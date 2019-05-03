@@ -44,7 +44,7 @@
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
                   <ATT name="Body"><![CDATA[has unit: g/100g
-min=0
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -83,7 +83,7 @@ nullable: NA, LD, LQ]]></ATT>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
                   <ATT name="Body"><![CDATA[has unit: g/100g
-min=0
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -122,46 +122,7 @@ nullable: NA, LD, LQ]]></ATT>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
                   <ATT name="Body"><![CDATA[has unit: g/100g
-min=0
-nullable: NA, LD, LQ]]></ATT>
-                  <ATT name="Language"></ATT>
-                  <ATT name="Name"></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES></DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="result_amq" mc="Standard.Attribute" uid="c12ef8a1-c0b4-48bc-bcba-0161541fdcc3"/>
-          <ATTRIBUTES>
-            <ATT name="TypeConstraint"></ATT>
-            <ATT name="Value"></ATT>
-            <ATT name="TargetIsClass">false</ATT>
-            <ATT name="Changeable">ReadWrite</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[result_amq]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Type">
-              <FOREIGNID name="float" mc="Standard.DataType" uid="00000004-0000-000b-0000-000000000000"/>
-            </LINK>
-            <COMP relation="ConstraintDefinition">
-              <OBJECT>
-                <ID name="" mc="Standard.Constraint" uid="cbdc0d22-4aab-454f-9169-ba6c4bd803dc"/>
-                <ATTRIBUTES>
-                  <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: g/100g
-min=0
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -200,7 +161,7 @@ nullable: NA, LD, LQ]]></ATT>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
                   <ATT name="Body"><![CDATA[has unit: g/100g
-min=0
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -239,7 +200,7 @@ nullable: NA, LD, LQ]]></ATT>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
                   <ATT name="Body"><![CDATA[has unit: g/100g
-min=0
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -278,7 +239,7 @@ nullable: NA, LD, LQ]]></ATT>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
                   <ATT name="Body"><![CDATA[has unit: g/100g
-min=0
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -317,7 +278,7 @@ nullable: NA, LD, LQ]]></ATT>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
                   <ATT name="Body"><![CDATA[has unit: g/100g
-min=0
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -356,7 +317,7 @@ nullable: NA, LD, LQ]]></ATT>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
                   <ATT name="Body"><![CDATA[has unit: g/100g
-min=0
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -395,7 +356,7 @@ nullable: NA, LD, LQ]]></ATT>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
                   <ATT name="Body"><![CDATA[has unit: g/100g
-min=0
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -434,7 +395,7 @@ nullable: NA, LD, LQ]]></ATT>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
                   <ATT name="Body"><![CDATA[has unit: g/100g
-min=0
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -473,7 +434,7 @@ nullable: NA, LD, LQ]]></ATT>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
                   <ATT name="Body"><![CDATA[has unit: g/100g
-min=0
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -512,7 +473,7 @@ nullable: NA, LD, LQ]]></ATT>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
                   <ATT name="Body"><![CDATA[has unit: g/100g
-min=0
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -551,7 +512,7 @@ nullable: NA, LD, LQ]]></ATT>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
                   <ATT name="Body"><![CDATA[has unit: g/100g
-min=0
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -590,7 +551,7 @@ nullable: NA, LD, LQ]]></ATT>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
                   <ATT name="Body"><![CDATA[has unit: g/100g
-min=0
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -629,7 +590,7 @@ nullable: NA, LD, LQ]]></ATT>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
                   <ATT name="Body"><![CDATA[has unit: g/100g
-min=0
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -668,7 +629,7 @@ nullable: NA, LD, LQ]]></ATT>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
                   <ATT name="Body"><![CDATA[has unit: g/100g
-min=0
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -707,7 +668,7 @@ nullable: NA, LD, LQ]]></ATT>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
                   <ATT name="Body"><![CDATA[has unit: g/100g
-min=0
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -746,7 +707,7 @@ nullable: NA, LD, LQ]]></ATT>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
                   <ATT name="Body"><![CDATA[has unit: g/100g
-min=0
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -785,7 +746,7 @@ nullable: NA, LD, LQ]]></ATT>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
                   <ATT name="Body"><![CDATA[has unit: g/100g
-min=0
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -824,7 +785,7 @@ nullable: NA, LD, LQ]]></ATT>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
                   <ATT name="Body"><![CDATA[has unit: g/100g
-min=0
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
@@ -863,7 +824,7 @@ nullable: NA, LD, LQ]]></ATT>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
                   <ATT name="Body"><![CDATA[has unit: g/100g
-min=0
+min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>

@@ -22,6 +22,7 @@
         <COMPID name="cellMicroscopy" mc="Standard.Class" uid="bf2bed06-39e6-4432-94af-89e5f05db509"/>
         <COMPID name="chromametry" mc="Standard.Class" uid="fe8c82ad-fca8-4161-ba39-59ce299caa71"/>
         <COMPID name="chromatography" mc="Standard.Class" uid="e5612254-d232-4c98-9f88-5fe40b042ff8"/>
+        <COMPID name="classicPcr" mc="Standard.Class" uid="b6fc50e7-2c74-45ed-949b-c3890bc26fae"/>
         <COMPID name="cookingLoss" mc="Standard.Class" uid="1c0571c4-d719-4a0a-b2bb-ecadac2e9e35"/>
         <COMPID name="crudeLiquidEnergy" mc="Standard.Class" uid="a07138c3-9a44-4cfa-8ef4-20f466ffba0d"/>
         <COMPID name="crudeSolidEnergy" mc="Standard.Class" uid="955db694-42df-47c3-a1b6-ecca65a48147"/>
@@ -29,9 +30,12 @@
         <COMPID name="dryMatterOrMineralQuantification" mc="Standard.Class" uid="01f2aedf-4b2b-4178-999e-c94689b29ca4"/>
         <COMPID name="electrochemicalMeasurement" mc="Standard.Class" uid="cefc2765-f01c-4a07-a057-3a86a27a283d"/>
         <COMPID name="electrophoresis" mc="Standard.Class" uid="2e988002-0a4c-4c77-b8c0-feb36db0fd22"/>
+        <COMPID name="elisa" mc="Standard.Class" uid="76acb70d-dd83-4834-b509-2b3b3f0d0b7b"/>
         <COMPID name="endpointAssay" mc="Standard.Class" uid="2fa039ee-b02a-4008-9aec-64a28ae5e43e"/>
+        <COMPID name="enzymaticActivity" mc="Standard.Class" uid="b7ed36d1-6d56-4fec-b639-1933f7bad820"/>
         <COMPID name="fibers" mc="Standard.Class" uid="bfe16639-46b2-40c8-b002-c5c6e7797e63"/>
         <COMPID name="flowCytometry" mc="Standard.Class" uid="6f511566-4082-48a6-bcbb-cde9b88d1327"/>
+        <COMPID name="gasChromatography" mc="Standard.Class" uid="4fd78aad-b9bf-42b5-a682-3c2c74cf1d46"/>
         <COMPID name="gelElectrophoresis" mc="Standard.Class" uid="fb691174-32ac-42cc-bbf2-5bfcfdaf6558"/>
         <COMPID name="generalAnalysis" mc="Standard.Class" uid="7059a2b3-a5bc-40e7-a4c8-39e0bc649ad9"/>
         <COMPID name="gravimetry" mc="Standard.Class" uid="1a753d65-c5f8-468d-bc3b-9f651c9522b1"/>
@@ -47,6 +51,9 @@
         <COMPID name="northernBlot" mc="Standard.Class" uid="2ce6489b-dec1-4c3f-9147-539f85f0e59b"/>
         <COMPID name="osmolarity" mc="Standard.Class" uid="0a1370e2-92cf-4a6e-8ed4-4800067e4ef5"/>
         <COMPID name="pH" mc="Standard.Class" uid="1d2c7a69-e249-4697-a12b-bf7c82a613fc"/>
+        <COMPID name="pcr" mc="Standard.Class" uid="b9e9bb73-b4ff-47d7-9972-c0850a670282"/>
+        <COMPID name="progressiveCurveExperiment" mc="Standard.Class" uid="c97ce01a-87c1-43f3-afa0-799c2f94902e"/>
+        <COMPID name="qRT-PCR" mc="Standard.Class" uid="d7dca4a4-1048-457b-8af3-27f6899ae2cc"/>
         <COMPID name="rawCellulose" mc="Standard.Class" uid="33bc96b2-b195-45e9-be7d-c52eb48b58ed"/>
         <COMPID name="solubleInsolubleFiber" mc="Standard.Class" uid="578c633b-35bd-4e05-89ea-435d26036a56"/>
         <COMPID name="spectrophotometry" mc="Standard.Class" uid="e134fd84-47e2-41c5-895b-9806c2c55eef"/>
