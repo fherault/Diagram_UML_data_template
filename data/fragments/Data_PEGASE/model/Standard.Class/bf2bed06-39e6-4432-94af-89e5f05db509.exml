@@ -57,7 +57,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="resultLivingCellCount" mc="Standard.Attribute" uid="36c307a6-7741-4ada-8ee4-fb7994d0b87b"/>
+          <ID name="livingCellCount" mc="Standard.Attribute" uid="36c307a6-7741-4ada-8ee4-fb7994d0b87b"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -71,7 +71,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[resultLivingCellCount]]></ATT>
+            <ATT name="Name"><![CDATA[livingCellCount]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>

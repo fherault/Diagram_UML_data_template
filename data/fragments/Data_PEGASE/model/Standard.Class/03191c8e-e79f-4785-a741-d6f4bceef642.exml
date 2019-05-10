@@ -102,7 +102,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="resultSecretoryCellArea" mc="Standard.Attribute" uid="5961a691-48ff-4fb5-8048-3354b5a5aba0"/>
+          <ID name="secretoryCellArea" mc="Standard.Attribute" uid="5961a691-48ff-4fb5-8048-3354b5a5aba0"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -116,7 +116,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[resultSecretoryCellArea]]></ATT>
+            <ATT name="Name"><![CDATA[secretoryCellArea]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -139,7 +139,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="resultAdiposeCellArea" mc="Standard.Attribute" uid="9f674de9-8acb-40c1-a77d-b11497c36460"/>
+          <ID name="adiposeCellArea" mc="Standard.Attribute" uid="9f674de9-8acb-40c1-a77d-b11497c36460"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -153,7 +153,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[resultAdiposeCellArea]]></ATT>
+            <ATT name="Name"><![CDATA[adiposeCellArea]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -176,7 +176,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="resultChannelArea" mc="Standard.Attribute" uid="09de8226-8212-479d-b58e-64ad6a507816"/>
+          <ID name="channelArea" mc="Standard.Attribute" uid="09de8226-8212-479d-b58e-64ad6a507816"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -190,7 +190,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[resultChannelArea]]></ATT>
+            <ATT name="Name"><![CDATA[channelArea]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>

@@ -17,7 +17,7 @@
     <DEPENDENCIES>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="result_OH-pro" mc="Standard.Attribute" uid="e0517d05-93b3-4dec-8fbb-debecaf4ab26"/>
+          <ID name="OH-pro" mc="Standard.Attribute" uid="e0517d05-93b3-4dec-8fbb-debecaf4ab26"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -31,7 +31,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[result_OH-pro]]></ATT>
+            <ATT name="Name"><![CDATA[OH-pro]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -56,7 +56,7 @@ nullable: NA, LD, LQ]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="result_acys" mc="Standard.Attribute" uid="b8eff9cf-13c7-4938-be52-ca4fed369c73"/>
+          <ID name="Acys" mc="Standard.Attribute" uid="b8eff9cf-13c7-4938-be52-ca4fed369c73"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -70,7 +70,7 @@ nullable: NA, LD, LQ]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[result_acys]]></ATT>
+            <ATT name="Name"><![CDATA[Acys]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -95,7 +95,7 @@ nullable: NA, LD, LQ]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="result_ala" mc="Standard.Attribute" uid="7b01a8db-0237-4f21-8736-46cca916198a"/>
+          <ID name="Ala" mc="Standard.Attribute" uid="7b01a8db-0237-4f21-8736-46cca916198a"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -109,7 +109,7 @@ nullable: NA, LD, LQ]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[result_ala]]></ATT>
+            <ATT name="Name"><![CDATA[Ala]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -134,7 +134,7 @@ nullable: NA, LD, LQ]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="result_arg" mc="Standard.Attribute" uid="1ac7fc84-58fb-4d97-89c0-03763b65ad92"/>
+          <ID name="Arg" mc="Standard.Attribute" uid="1ac7fc84-58fb-4d97-89c0-03763b65ad92"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -148,7 +148,7 @@ nullable: NA, LD, LQ]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[result_arg]]></ATT>
+            <ATT name="Name"><![CDATA[Arg]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -173,7 +173,7 @@ nullable: NA, LD, LQ]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="result_asp" mc="Standard.Attribute" uid="8d4098f8-9f14-4a4a-9ff2-ca3653ba68a1"/>
+          <ID name="Asp" mc="Standard.Attribute" uid="8d4098f8-9f14-4a4a-9ff2-ca3653ba68a1"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -187,7 +187,7 @@ nullable: NA, LD, LQ]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[result_asp]]></ATT>
+            <ATT name="Name"><![CDATA[Asp]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -212,7 +212,7 @@ nullable: NA, LD, LQ]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="result_cys" mc="Standard.Attribute" uid="c7526e36-01c1-4076-817f-da840c9ef146"/>
+          <ID name="Cys" mc="Standard.Attribute" uid="c7526e36-01c1-4076-817f-da840c9ef146"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -226,7 +226,7 @@ nullable: NA, LD, LQ]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[result_cys]]></ATT>
+            <ATT name="Name"><![CDATA[Cys]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -251,7 +251,7 @@ nullable: NA, LD, LQ]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="result_glu" mc="Standard.Attribute" uid="4f0c48f9-0d43-4792-8a57-e813659ea85a"/>
+          <ID name="Glu" mc="Standard.Attribute" uid="4f0c48f9-0d43-4792-8a57-e813659ea85a"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -265,7 +265,7 @@ nullable: NA, LD, LQ]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[result_glu]]></ATT>
+            <ATT name="Name"><![CDATA[Glu]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -290,7 +290,7 @@ nullable: NA, LD, LQ]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="result_gly" mc="Standard.Attribute" uid="15b10612-674d-43ea-ad9b-e93b1aac8846"/>
+          <ID name="Gly" mc="Standard.Attribute" uid="15b10612-674d-43ea-ad9b-e93b1aac8846"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -304,7 +304,7 @@ nullable: NA, LD, LQ]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[result_gly]]></ATT>
+            <ATT name="Name"><![CDATA[Gly]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -329,7 +329,7 @@ nullable: NA, LD, LQ]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="result_his" mc="Standard.Attribute" uid="0c51599d-bc63-4bee-9181-eceba09ead3c"/>
+          <ID name="His" mc="Standard.Attribute" uid="0c51599d-bc63-4bee-9181-eceba09ead3c"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -343,7 +343,7 @@ nullable: NA, LD, LQ]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[result_his]]></ATT>
+            <ATT name="Name"><![CDATA[His]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -368,7 +368,7 @@ nullable: NA, LD, LQ]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="result_ile" mc="Standard.Attribute" uid="2833556c-e948-45b5-9131-96a5a649f723"/>
+          <ID name="Ile" mc="Standard.Attribute" uid="2833556c-e948-45b5-9131-96a5a649f723"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -382,7 +382,7 @@ nullable: NA, LD, LQ]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[result_ile]]></ATT>
+            <ATT name="Name"><![CDATA[Ile]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -407,7 +407,7 @@ nullable: NA, LD, LQ]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="result_leu" mc="Standard.Attribute" uid="dc546bb2-8d0e-4c18-9af6-3e321a400ea6"/>
+          <ID name="Leu" mc="Standard.Attribute" uid="dc546bb2-8d0e-4c18-9af6-3e321a400ea6"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -421,7 +421,7 @@ nullable: NA, LD, LQ]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[result_leu]]></ATT>
+            <ATT name="Name"><![CDATA[Leu]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -446,7 +446,7 @@ nullable: NA, LD, LQ]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="result_lys" mc="Standard.Attribute" uid="2fb64620-8ddd-43cb-a37e-975d630ffc65"/>
+          <ID name="Lys" mc="Standard.Attribute" uid="2fb64620-8ddd-43cb-a37e-975d630ffc65"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -460,7 +460,7 @@ nullable: NA, LD, LQ]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[result_lys]]></ATT>
+            <ATT name="Name"><![CDATA[Lys]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -485,7 +485,7 @@ nullable: NA, LD, LQ]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="result_meso" mc="Standard.Attribute" uid="4f9bc05c-8bb0-4fc8-bea6-cb0130508b6a"/>
+          <ID name="Meso" mc="Standard.Attribute" uid="4f9bc05c-8bb0-4fc8-bea6-cb0130508b6a"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -499,7 +499,7 @@ nullable: NA, LD, LQ]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[result_meso]]></ATT>
+            <ATT name="Name"><![CDATA[Meso]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -524,7 +524,7 @@ nullable: NA, LD, LQ]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="result_met" mc="Standard.Attribute" uid="29b7b10e-79f1-482b-afc8-f03c43649bac"/>
+          <ID name="Met" mc="Standard.Attribute" uid="29b7b10e-79f1-482b-afc8-f03c43649bac"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -538,7 +538,7 @@ nullable: NA, LD, LQ]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[result_met]]></ATT>
+            <ATT name="Name"><![CDATA[Met]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -563,7 +563,7 @@ nullable: NA, LD, LQ]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="result_nh3" mc="Standard.Attribute" uid="1ce89ca4-50c7-48a2-bf8d-2fb955b85539"/>
+          <ID name="Nh3" mc="Standard.Attribute" uid="1ce89ca4-50c7-48a2-bf8d-2fb955b85539"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -577,7 +577,7 @@ nullable: NA, LD, LQ]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[result_nh3]]></ATT>
+            <ATT name="Name"><![CDATA[Nh3]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -602,7 +602,7 @@ nullable: NA, LD, LQ]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="result_phe" mc="Standard.Attribute" uid="5b30027d-1a04-43e1-b117-2148a1850312"/>
+          <ID name="Phe" mc="Standard.Attribute" uid="5b30027d-1a04-43e1-b117-2148a1850312"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -616,7 +616,7 @@ nullable: NA, LD, LQ]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[result_phe]]></ATT>
+            <ATT name="Name"><![CDATA[Phe]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -641,7 +641,7 @@ nullable: NA, LD, LQ]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="result_pro" mc="Standard.Attribute" uid="c14e6544-0e30-4d49-baa6-32d60b255ff1"/>
+          <ID name="Pro" mc="Standard.Attribute" uid="c14e6544-0e30-4d49-baa6-32d60b255ff1"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -655,7 +655,7 @@ nullable: NA, LD, LQ]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[result_pro]]></ATT>
+            <ATT name="Name"><![CDATA[Pro]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -680,7 +680,7 @@ nullable: NA, LD, LQ]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="result_ser" mc="Standard.Attribute" uid="1f53ccca-ab4f-4504-8a08-5afbf1697de2"/>
+          <ID name="Ser" mc="Standard.Attribute" uid="1f53ccca-ab4f-4504-8a08-5afbf1697de2"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -694,7 +694,7 @@ nullable: NA, LD, LQ]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[result_ser]]></ATT>
+            <ATT name="Name"><![CDATA[Ser]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -719,7 +719,7 @@ nullable: NA, LD, LQ]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="result_thr" mc="Standard.Attribute" uid="3d9c2c6b-341b-4c73-8147-1f1e77cd6310"/>
+          <ID name="Thr" mc="Standard.Attribute" uid="3d9c2c6b-341b-4c73-8147-1f1e77cd6310"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -733,7 +733,7 @@ nullable: NA, LD, LQ]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[result_thr]]></ATT>
+            <ATT name="Name"><![CDATA[Thr]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -758,7 +758,7 @@ nullable: NA, LD, LQ]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="result_tyr" mc="Standard.Attribute" uid="45a151c7-8304-415a-8069-82704594b892"/>
+          <ID name="Tyr" mc="Standard.Attribute" uid="45a151c7-8304-415a-8069-82704594b892"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -772,7 +772,7 @@ nullable: NA, LD, LQ]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[result_tyr]]></ATT>
+            <ATT name="Name"><![CDATA[Tyr]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -797,7 +797,7 @@ nullable: NA, LD, LQ]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="result_val" mc="Standard.Attribute" uid="0d82fee6-662c-46d0-a28a-43c10c7c4faf"/>
+          <ID name="Val" mc="Standard.Attribute" uid="0d82fee6-662c-46d0-a28a-43c10c7c4faf"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -811,7 +811,7 @@ nullable: NA, LD, LQ]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[result_val]]></ATT>
+            <ATT name="Name"><![CDATA[Val]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>

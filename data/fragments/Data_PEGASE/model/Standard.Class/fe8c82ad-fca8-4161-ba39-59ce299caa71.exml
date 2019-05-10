@@ -54,7 +54,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="result_L*" mc="Standard.Attribute" uid="93271d4c-3927-4599-bf23-6dbd5430d6ce"/>
+          <ID name="L" mc="Standard.Attribute" uid="93271d4c-3927-4599-bf23-6dbd5430d6ce"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -68,7 +68,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[result_L*]]></ATT>
+            <ATT name="Name"><![CDATA[L]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -92,7 +92,7 @@ max=100]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="result_a*" mc="Standard.Attribute" uid="7d25cf88-c42f-4d1b-98b1-6f756099bfb4"/>
+          <ID name="a" mc="Standard.Attribute" uid="7d25cf88-c42f-4d1b-98b1-6f756099bfb4"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -106,7 +106,7 @@ max=100]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[result_a*]]></ATT>
+            <ATT name="Name"><![CDATA[a]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -130,7 +130,7 @@ max=120]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="result_b*" mc="Standard.Attribute" uid="a16a16f9-e565-4eb9-a1b1-29f12a319257"/>
+          <ID name="b" mc="Standard.Attribute" uid="a16a16f9-e565-4eb9-a1b1-29f12a319257"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -144,7 +144,7 @@ max=120]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[result_b*]]></ATT>
+            <ATT name="Name"><![CDATA[b]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
