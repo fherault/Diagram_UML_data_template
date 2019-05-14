@@ -17,7 +17,7 @@
     <DEPENDENCIES>
       <COMP relation="Parent">
         <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="75f73f6e-b98a-41cc-86e8-cb790136d7e1"/>
+          <ID name="Generalization" mc="Standard.Generalization" uid="b1a604ed-e7d9-424a-a6c6-1964a1c59631"/>
           <ATTRIBUTES>
             <ATT name="Discriminator"></ATT>
             <ATT name="Name"><![CDATA[Generalization]]></ATT>
@@ -25,33 +25,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="bloodGases" mc="Standard.Class" uid="fd973a7f-f588-42ed-bcec-8fdca3c6b8c3"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="316e6a6f-eb97-468f-82e7-3b7883d4abe5"/>
-          <ATTRIBUTES>
-            <ATT name="Discriminator"></ATT>
-            <ATT name="Name"><![CDATA[Generalization]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="SuperType">
-              <ID name="osmolarity" mc="Standard.Class" uid="0a1370e2-92cf-4a6e-8ed4-4800067e4ef5"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="161549a0-b890-463c-9ce5-57a936753ba2"/>
-          <ATTRIBUTES>
-            <ATT name="Discriminator"></ATT>
-            <ATT name="Name"><![CDATA[Generalization]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="SuperType">
-              <ID name="pH" mc="Standard.Class" uid="1d2c7a69-e249-4697-a12b-bf7c82a613fc"/>
+              <ID name="generalAnalysis" mc="Standard.Class" uid="7059a2b3-a5bc-40e7-a4c8-39e0bc649ad9"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

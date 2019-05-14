@@ -128,7 +128,7 @@
       </COMP>
       <COMP relation="Parent">
         <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="37414791-f501-4851-af1b-cf90bf989b6d"/>
+          <ID name="Generalization" mc="Standard.Generalization" uid="cc4d4731-dcd4-4ee4-9726-24e0c4a1cf78"/>
           <ATTRIBUTES>
             <ATT name="Discriminator"></ATT>
             <ATT name="Name"><![CDATA[Generalization]]></ATT>
@@ -136,20 +136,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="endpointAssay" mc="Standard.Class" uid="2fa039ee-b02a-4008-9aec-64a28ae5e43e"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="5a84550f-fec9-4d58-a81f-7a6dc0c956e0"/>
-          <ATTRIBUTES>
-            <ATT name="Discriminator"></ATT>
-            <ATT name="Name"><![CDATA[Generalization]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="SuperType">
-              <ID name="progressiveCurveExperiment" mc="Standard.Class" uid="c97ce01a-87c1-43f3-afa0-799c2f94902e"/>
+              <ID name="spectrophotometry" mc="Standard.Class" uid="e134fd84-47e2-41c5-895b-9806c2c55eef"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

@@ -14,7 +14,7 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="2dGelElectrophoresis" mc="Standard.Class" uid="088ad8e2-8493-47cc-b223-3699ae8d1a41"/>
+        <COMPID name="twoDGelElectrophoresis" mc="Standard.Class" uid="088ad8e2-8493-47cc-b223-3699ae8d1a41"/>
         <COMPID name="behavior" mc="Standard.Class" uid="17a692f7-fe20-4562-a567-16b9e2672ebe"/>
         <COMPID name="bloodGases" mc="Standard.Class" uid="fd973a7f-f588-42ed-bcec-8fdca3c6b8c3"/>
         <COMPID name="calorimetry" mc="Standard.Class" uid="ac35d55f-f60e-40df-a1b3-a79b2998b33c"/>
@@ -31,7 +31,7 @@
         <COMPID name="electrochemicalMeasurement" mc="Standard.Class" uid="cefc2765-f01c-4a07-a057-3a86a27a283d"/>
         <COMPID name="electrophoresis" mc="Standard.Class" uid="2e988002-0a4c-4c77-b8c0-feb36db0fd22"/>
         <COMPID name="elisa" mc="Standard.Class" uid="76acb70d-dd83-4834-b509-2b3b3f0d0b7b"/>
-        <COMPID name="endpointAssay" mc="Standard.Class" uid="2fa039ee-b02a-4008-9aec-64a28ae5e43e"/>
+        <COMPID name="endPointAssay" mc="Standard.Class" uid="2fa039ee-b02a-4008-9aec-64a28ae5e43e"/>
         <COMPID name="enzymaticActivity" mc="Standard.Class" uid="b7ed36d1-6d56-4fec-b639-1933f7bad820"/>
         <COMPID name="fibers" mc="Standard.Class" uid="bfe16639-46b2-40c8-b002-c5c6e7797e63"/>
         <COMPID name="flowCytometry" mc="Standard.Class" uid="6f511566-4082-48a6-bcbb-cde9b88d1327"/>
@@ -53,14 +53,14 @@
         <COMPID name="pH" mc="Standard.Class" uid="1d2c7a69-e249-4697-a12b-bf7c82a613fc"/>
         <COMPID name="pcr" mc="Standard.Class" uid="b9e9bb73-b4ff-47d7-9972-c0850a670282"/>
         <COMPID name="progressiveCurveExperiment" mc="Standard.Class" uid="c97ce01a-87c1-43f3-afa0-799c2f94902e"/>
-        <COMPID name="qRT-PCR" mc="Standard.Class" uid="d7dca4a4-1048-457b-8af3-27f6899ae2cc"/>
+        <COMPID name="qRT_PCR" mc="Standard.Class" uid="d7dca4a4-1048-457b-8af3-27f6899ae2cc"/>
         <COMPID name="rawCellulose" mc="Standard.Class" uid="33bc96b2-b195-45e9-be7d-c52eb48b58ed"/>
         <COMPID name="solubleInsolubleFiber" mc="Standard.Class" uid="578c633b-35bd-4e05-89ea-435d26036a56"/>
         <COMPID name="spectrophotometry" mc="Standard.Class" uid="e134fd84-47e2-41c5-895b-9806c2c55eef"/>
-        <COMPID name="starchPolarimetricMethod " mc="Standard.Class" uid="ad830a71-2c8b-451b-8d2a-9a95fbff9aed"/>
+        <COMPID name="starchPolarimetric" mc="Standard.Class" uid="ad830a71-2c8b-451b-8d2a-9a95fbff9aed"/>
         <COMPID name="uplc" mc="Standard.Class" uid="b8a9ed10-e928-467a-b138-18bb6649d7b5"/>
         <COMPID name="westernBlot" mc="Standard.Class" uid="d46e105d-35f6-4058-a267-99b45339b3e9"/>
-        <COMPID name="zymographie" mc="Standard.Class" uid="1e4b3dec-1f34-40fe-9fd4-c313fe76e91f"/>
+        <COMPID name="zymography" mc="Standard.Class" uid="1e4b3dec-1f34-40fe-9fd4-c313fe76e91f"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="project1_test Class diagram" mc="Standard.ClassDiagram" uid="47ea7deb-550c-4a67-9118-7d7dbabc89db"/>

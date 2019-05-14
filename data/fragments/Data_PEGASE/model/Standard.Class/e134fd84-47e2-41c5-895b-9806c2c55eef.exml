@@ -165,7 +165,7 @@
       </COMP>
       <COMP relation="Parent">
         <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="bfbb66f1-f568-4d9e-b203-2a285dddedac"/>
+          <ID name="Generalization" mc="Standard.Generalization" uid="f8fb9c28-c9cd-4206-a7c8-66cc32ce48cd"/>
           <ATTRIBUTES>
             <ATT name="Discriminator"></ATT>
             <ATT name="Name"><![CDATA[Generalization]]></ATT>
@@ -173,20 +173,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="enzymaticActivity" mc="Standard.Class" uid="b7ed36d1-6d56-4fec-b639-1933f7bad820"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="be5792c8-2b32-4dff-9a00-656220581d8c"/>
-          <ATTRIBUTES>
-            <ATT name="Discriminator"></ATT>
-            <ATT name="Name"><![CDATA[Generalization]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="SuperType">
-              <ID name="elisa" mc="Standard.Class" uid="76acb70d-dd83-4834-b509-2b3b3f0d0b7b"/>
+              <ID name="generalAnalysis" mc="Standard.Class" uid="7059a2b3-a5bc-40e7-a4c8-39e0bc649ad9"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

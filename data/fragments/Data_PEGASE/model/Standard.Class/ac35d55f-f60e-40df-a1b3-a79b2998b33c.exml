@@ -166,7 +166,7 @@
       </COMP>
       <COMP relation="Parent">
         <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="ae42c9f4-5e96-40dd-85ca-47448feaec17"/>
+          <ID name="Generalization" mc="Standard.Generalization" uid="b1bbd171-5cd7-430a-8a28-6e88cc904a30"/>
           <ATTRIBUTES>
             <ATT name="Discriminator"></ATT>
             <ATT name="Name"><![CDATA[Generalization]]></ATT>
@@ -174,20 +174,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="crudeLiquidEnergy" mc="Standard.Class" uid="a07138c3-9a44-4cfa-8ef4-20f466ffba0d"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="21bbd444-1c1a-4625-b5b5-d03050d9fd60"/>
-          <ATTRIBUTES>
-            <ATT name="Discriminator"></ATT>
-            <ATT name="Name"><![CDATA[Generalization]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="SuperType">
-              <ID name="crudeSolidEnergy" mc="Standard.Class" uid="955db694-42df-47c3-a1b6-ecca65a48147"/>
+              <ID name="generalAnalysis" mc="Standard.Class" uid="7059a2b3-a5bc-40e7-a4c8-39e0bc649ad9"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
