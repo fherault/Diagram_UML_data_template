@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="qRT-PCR" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="qRT_PCR" version="4">
   <OBJECT>
-    <ID name="qRT-PCR" mc="Standard.Class" uid="d7dca4a4-1048-457b-8af3-27f6899ae2cc"/>
+    <ID name="qRT_PCR" mc="Standard.Class" uid="d7dca4a4-1048-457b-8af3-27f6899ae2cc"/>
     <PID name="project1_test" mc="Standard.Package" uid="1659c626-5d02-4f8a-b4ba-24bce7848e7b"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[qRT-PCR]]></ATT>
+      <ATT name="Name"><![CDATA[qRT_PCR]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="starchPolarimetricMethod " version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="starchPolarimetric" version="4">
   <OBJECT>
-    <ID name="starchPolarimetricMethod " mc="Standard.Class" uid="ad830a71-2c8b-451b-8d2a-9a95fbff9aed"/>
+    <ID name="starchPolarimetric" mc="Standard.Class" uid="ad830a71-2c8b-451b-8d2a-9a95fbff9aed"/>
     <PID name="project1_test" mc="Standard.Package" uid="1659c626-5d02-4f8a-b4ba-24bce7848e7b"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[starchPolarimetricMethod ]]></ATT>
+      <ATT name="Name"><![CDATA[starchPolarimetric]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES></DEPENDENCIES>
