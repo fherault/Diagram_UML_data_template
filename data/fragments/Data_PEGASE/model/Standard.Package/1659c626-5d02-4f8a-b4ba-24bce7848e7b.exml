@@ -14,7 +14,6 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="twoDGelElectrophoresis" mc="Standard.Class" uid="088ad8e2-8493-47cc-b223-3699ae8d1a41"/>
         <COMPID name="behavior" mc="Standard.Class" uid="17a692f7-fe20-4562-a567-16b9e2672ebe"/>
         <COMPID name="bloodGases" mc="Standard.Class" uid="fd973a7f-f588-42ed-bcec-8fdca3c6b8c3"/>
         <COMPID name="calorimetry" mc="Standard.Class" uid="ac35d55f-f60e-40df-a1b3-a79b2998b33c"/>
@@ -22,7 +21,7 @@
         <COMPID name="cellMicroscopy" mc="Standard.Class" uid="bf2bed06-39e6-4432-94af-89e5f05db509"/>
         <COMPID name="chromametry" mc="Standard.Class" uid="fe8c82ad-fca8-4161-ba39-59ce299caa71"/>
         <COMPID name="chromatography" mc="Standard.Class" uid="e5612254-d232-4c98-9f88-5fe40b042ff8"/>
-        <COMPID name="classicPcr" mc="Standard.Class" uid="b6fc50e7-2c74-45ed-949b-c3890bc26fae"/>
+        <COMPID name="classicPCR" mc="Standard.Class" uid="3c776318-393f-4d4a-93cf-c50ef80b4058"/>
         <COMPID name="cookingLoss" mc="Standard.Class" uid="1c0571c4-d719-4a0a-b2bb-ecadac2e9e35"/>
         <COMPID name="crudeLiquidEnergy" mc="Standard.Class" uid="a07138c3-9a44-4cfa-8ef4-20f466ffba0d"/>
         <COMPID name="crudeSolidEnergy" mc="Standard.Class" uid="955db694-42df-47c3-a1b6-ecca65a48147"/>
@@ -58,6 +57,7 @@
         <COMPID name="solubleInsolubleFiber" mc="Standard.Class" uid="578c633b-35bd-4e05-89ea-435d26036a56"/>
         <COMPID name="spectrophotometry" mc="Standard.Class" uid="e134fd84-47e2-41c5-895b-9806c2c55eef"/>
         <COMPID name="starchPolarimetric" mc="Standard.Class" uid="ad830a71-2c8b-451b-8d2a-9a95fbff9aed"/>
+        <COMPID name="twoDGelElectrophoresis" mc="Standard.Class" uid="088ad8e2-8493-47cc-b223-3699ae8d1a41"/>
         <COMPID name="uplc" mc="Standard.Class" uid="b8a9ed10-e928-467a-b138-18bb6649d7b5"/>
         <COMPID name="westernBlot" mc="Standard.Class" uid="d46e105d-35f6-4058-a267-99b45339b3e9"/>
         <COMPID name="zymography" mc="Standard.Class" uid="1e4b3dec-1f34-40fe-9fd4-c313fe76e91f"/>
