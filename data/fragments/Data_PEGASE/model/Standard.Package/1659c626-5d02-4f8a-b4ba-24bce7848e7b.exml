@@ -23,8 +23,6 @@
         <COMPID name="chromatography" mc="Standard.Class" uid="e5612254-d232-4c98-9f88-5fe40b042ff8"/>
         <COMPID name="classicPCR" mc="Standard.Class" uid="3c776318-393f-4d4a-93cf-c50ef80b4058"/>
         <COMPID name="cookingLoss" mc="Standard.Class" uid="1c0571c4-d719-4a0a-b2bb-ecadac2e9e35"/>
-        <COMPID name="crudeLiquidEnergy" mc="Standard.Class" uid="a07138c3-9a44-4cfa-8ef4-20f466ffba0d"/>
-        <COMPID name="crudeSolidEnergy" mc="Standard.Class" uid="955db694-42df-47c3-a1b6-ecca65a48147"/>
         <COMPID name="dripLoss" mc="Standard.Class" uid="0d344336-b431-425d-b8d6-8aacfda8edac"/>
         <COMPID name="dryMatterOrMineralQuantification" mc="Standard.Class" uid="01f2aedf-4b2b-4178-999e-c94689b29ca4"/>
         <COMPID name="electrochemicalMeasurement" mc="Standard.Class" uid="cefc2765-f01c-4a07-a057-3a86a27a283d"/>
