@@ -56,7 +56,7 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="8b558d56-0986-4d24-84b0-a144d650df6c"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:PriseEssai]]></ATT>
+                  <ATT name="Content"><![CDATA[desc:Prise d'essai]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>

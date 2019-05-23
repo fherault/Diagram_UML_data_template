@@ -148,7 +148,7 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="bf1af439-ed7f-4f04-8509-31040673aa28"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:CycleDeTemperature]]></ATT>
+                  <ATT name="Content"><![CDATA[desc:Cycle de temperature]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>

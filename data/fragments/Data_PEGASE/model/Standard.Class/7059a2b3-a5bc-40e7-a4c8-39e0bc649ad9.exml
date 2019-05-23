@@ -55,7 +55,7 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="482e5232-a6b1-4a0c-8bd3-755978741b85"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:Date]]></ATT>
+                  <ATT name="Content"><![CDATA[desc:Date format jj/mm/aaa]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -110,7 +110,7 @@ format obligaoire (YYYY/ MM/DD ???)]]></ATT>
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="fe5e5a32-04ed-4400-917c-82d6edf74749"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:Manipulateur]]></ATT>
+                  <ATT name="Content"><![CDATA[desc:Manipulateur (LDAP)]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -150,7 +150,7 @@ format obligaoire (YYYY/ MM/DD ???)]]></ATT>
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="d2f92586-668f-45ee-b01f-843f6f1f10db"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:ModeOderatoireLaboratoire]]></ATT>
+                  <ATT name="Content"><![CDATA[desc:Mode Operatoire de Laboratoire (MOL)]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -220,7 +220,7 @@ peut-être une liste de plusieurs éléments]]></ATT>
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="f99194d5-aa47-4d33-a859-5f381d2c4a83"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:AppareilLogicielCritique]]></ATT>
+                  <ATT name="Content"><![CDATA[desc:Appareil ou logiciel critique (si plusieurs utiliser des ";")]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -235,7 +235,7 @@ peut-être une liste de plusieurs éléments]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="criticalProduct" mc="Standard.Attribute" uid="a2858fda-b5ff-4683-bdcc-66b902e841bd"/>
+          <ID name="criticalProductReference" mc="Standard.Attribute" uid="a2858fda-b5ff-4683-bdcc-66b902e841bd"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -249,7 +249,7 @@ peut-être une liste de plusieurs éléments]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[criticalProduct]]></ATT>
+            <ATT name="Name"><![CDATA[criticalProductReference]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -274,7 +274,61 @@ peut-être une liste de plusieurs éléments]]></ATT>
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="e7a6d11d-1560-40cf-ad0a-992936841736"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:ProduitCritique]]></ATT>
+                  <ATT name="Content"><![CDATA[desc:Fournisseur et ref. produits critiques (si plusieurs utiliser des ";")]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="criticalProductLot" mc="Standard.Attribute" uid="139b644f-54b0-4897-9f05-5b5bef94dc04"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[criticalProductLot]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+            </LINK>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="d96e4fe9-3590-4b67-8c26-2cd48c4589b8"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[peut-être une liste de plusieurs éléments]]></ATT>
+                  <ATT name="MimeType"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="d9a4ff02-1f0f-4389-9ac7-d636661f578c"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[desc:FNumero de lot produits critiques (si plusieurs utiliser des ";")]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -314,7 +368,7 @@ peut-être une liste de plusieurs éléments]]></ATT>
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="edda8739-b4c9-4e9e-8e82-eec7048074d9"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:LieuStockageDonneesBrutes]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Lieu de stockage des donnees brutes]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -369,7 +423,60 @@ sous projet et n° d'échantillon incrémenté.]]></ATT>
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="17f8081f-d3d6-4ae5-8bcf-cc8c5478eb6a"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[Desc:IdentifiantEchantillon]]></ATT>
+                  <ATT name="Content"><![CDATA[desc:Identifiant de l'echantillon]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="comment" mc="Standard.Attribute" uid="2efeeac2-9151-42c9-b9ad-bba9a32ea7c6"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[comment]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+            </LINK>
+            <COMP relation="ConstraintDefinition">
+              <OBJECT>
+                <ID name="" mc="Standard.Constraint" uid="b3f577ef-f08e-4df4-af62-83456c14d7ac"/>
+                <ATTRIBUTES>
+                  <ATT name="BaseClass"></ATT>
+                  <ATT name="Body"><![CDATA[ordered(rindex=1)]]></ATT>
+                  <ATT name="Language"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="40737d80-4ea0-4a60-92c3-059c8c14cbb0"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[desc:Commentaire]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
