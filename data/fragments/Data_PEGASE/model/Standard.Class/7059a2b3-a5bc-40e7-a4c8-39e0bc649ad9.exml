@@ -464,7 +464,7 @@ sous projet et n° d'échantillon incrémenté.]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="b3f577ef-f08e-4df4-af62-83456c14d7ac"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[ordered(rindex=1)]]></ATT>
+                  <ATT name="Body"><![CDATA[Ordered(rindex=1)]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
