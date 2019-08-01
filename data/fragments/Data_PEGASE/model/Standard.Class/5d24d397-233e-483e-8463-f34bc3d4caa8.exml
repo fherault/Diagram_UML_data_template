@@ -42,7 +42,9 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="4e929577-0a82-4163-8729-f0257fc9faf6"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:Catalyseur]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Catalyseur
+desc1: format: texte
+desc2: ex: ...]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -95,7 +97,9 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="0e344385-81eb-4c9f-9df2-db416d88b896"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:Type d'azote dosé]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Type d'azote dosé
+desc1: format: texte
+desc2: ex: NPN]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
