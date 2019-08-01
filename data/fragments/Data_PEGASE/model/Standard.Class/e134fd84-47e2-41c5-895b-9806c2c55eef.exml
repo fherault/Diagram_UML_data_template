@@ -43,7 +43,8 @@
                 <ID name="" mc="Standard.Constraint" uid="ed038dcb-4b26-4ebf-9720-408c727a6426"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: nm]]></ATT>
+                  <ATT name="Body"><![CDATA[has unit: nm
+min>0]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -55,7 +56,9 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="e949f517-e053-4144-8325-9a4947a377f7"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc: Longueur d'onde]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Longueur d'onde
+desc1: format: nombre entier, ne pas spécifier d'unité
+desc2: ex: 340]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -95,7 +98,9 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="a114829e-984a-420e-a8d5-5d42d8a68af7"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:Gamme de linéarité]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Gamme de linéarité de la méthode
+desc1: format: alphanumérique XXXX-XXXX, spécifier l'unité.
+desc2: ex: 0-3400 mg/ml]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -131,12 +136,27 @@
             <LINK relation="Type">
               <FOREIGNID name="float" mc="Standard.DataType" uid="00000004-0000-000b-0000-000000000000"/>
             </LINK>
+            <COMP relation="ConstraintDefinition">
+              <OBJECT>
+                <ID name="" mc="Standard.Constraint" uid="d7c61e92-a430-4ca7-82bf-043aa56ca9bc"/>
+                <ATTRIBUTES>
+                  <ATT name="BaseClass"></ATT>
+                  <ATT name="Body"><![CDATA[min>0
+]]></ATT>
+                  <ATT name="Language"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
             <COMP relation="Descriptor">
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="aba3c257-ef43-4155-83f9-b5403d3c7820"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:coefficient de détermination (R2)
-]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Coefficient de détermination (R2)
+desc1: format: nombre décimal
+desc2: ex: 0.98]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -176,7 +196,9 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="a13af3bd-af16-4e49-9a91-f6bb941bb048"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:Pente de la droite de regression]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Pente de la droite de régression
+desc1: format: nombre décimal
+desc2: ex: 0.0005]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -214,10 +236,10 @@
             </LINK>
             <COMP relation="ConstraintDefinition">
               <OBJECT>
-                <ID name="" mc="Standard.Constraint" uid="09d32727-7b47-4f1e-bb21-47e29fe3d255"/>
+                <ID name="" mc="Standard.Constraint" uid="0730aa41-1d9b-4838-b00c-4a2bbfe3da60"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: mL or mg]]></ATT>
+                  <ATT name="Body"><![CDATA[min>0]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -229,7 +251,51 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="f162b6e3-7b56-4e3a-b72a-7ed2d026433e"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:Prise d'essai]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Prise d'essai
+desc1: format: nombre décimal, ne pas spécifier d'unité
+desc2: ex: 2.0]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="samplePortionUnit" mc="Standard.Attribute" uid="b4ce31ef-2a12-44c4-af4b-8dc5127525ba"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[samplePortionUnit]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+            </LINK>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="9630bb13-0336-410b-94c8-889183ca5ed8"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[desc: Unité de mesure de la prise d’essai
+desc1: format: texte
+desc2: ex: mg]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -265,11 +331,26 @@
             <LINK relation="Type">
               <FOREIGNID name="integer" mc="Standard.DataType" uid="00000004-0000-0009-0000-000000000000"/>
             </LINK>
+            <COMP relation="ConstraintDefinition">
+              <OBJECT>
+                <ID name="" mc="Standard.Constraint" uid="f9375d9c-2aba-4922-b6cc-c4e7db4acb87"/>
+                <ATTRIBUTES>
+                  <ATT name="BaseClass"></ATT>
+                  <ATT name="Body"><![CDATA[min>0]]></ATT>
+                  <ATT name="Language"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
             <COMP relation="Descriptor">
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="e951ef4e-d5f5-4ba9-b68f-f19571c3ce47"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:Facteur de dilution de l'échantillon]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Facteur de dilution de l'échantillon
+desc1: format: nombre entier
+desc2: ex: 10]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -305,11 +386,37 @@
             <LINK relation="Type">
               <FOREIGNID name="float" mc="Standard.DataType" uid="00000004-0000-000b-0000-000000000000"/>
             </LINK>
+            <COMP relation="ConstraintDefinition">
+              <OBJECT>
+                <ID name="" mc="Standard.Constraint" uid="2f9f95ee-0368-496c-87b9-9dbe019d1f25"/>
+                <ATTRIBUTES>
+                  <ATT name="BaseClass"></ATT>
+                  <ATT name="Body"><![CDATA[nullable : NA, LD, LQ]]></ATT>
+                  <ATT name="Language"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="" mc="Standard.Constraint" uid="f67ef0a0-d241-46ad-987c-5c449c880b18"/>
+                <ATTRIBUTES>
+                  <ATT name="BaseClass"></ATT>
+                  <ATT name="Body"><![CDATA[min>0]]></ATT>
+                  <ATT name="Language"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
             <COMP relation="Descriptor">
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="0976edc7-df3b-4500-8659-b03e51481fa9"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:Densité optique mesurée]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Valeur de la densité optique mesurée
+desc1: format: nombre décimal ou NA
+desc2: ex: 0.335 ou NA]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>

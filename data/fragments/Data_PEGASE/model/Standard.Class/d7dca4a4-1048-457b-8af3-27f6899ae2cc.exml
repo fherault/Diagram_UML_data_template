@@ -42,7 +42,9 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="349a97d7-cd1b-43e0-bce0-6c8a25048a62"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:Sybr, Taqman.... Si taqman préciser le fluorochrome.]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Type de technologie utilisée (Sybr, Taqman)
+desc1: format: texte, si taqman préciser le fluorophore.
+desc2: ex: SYBRGreen ou Taqman FAM]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -78,11 +80,26 @@
             <LINK relation="Type">
               <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
             </LINK>
+            <COMP relation="ConstraintDefinition">
+              <OBJECT>
+                <ID name="" mc="Standard.Constraint" uid="9ff2be3e-5632-4f39-b1e1-7abc2b019814"/>
+                <ATTRIBUTES>
+                  <ATT name="BaseClass"></ATT>
+                  <ATT name="Body"><![CDATA[nullable : NA, LD, LQ]]></ATT>
+                  <ATT name="Language"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
             <COMP relation="Descriptor">
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="53fac93d-c42f-4a27-87c6-a2bf395cad09"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:SequenceSondeTaqMan]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Sequence de la sonde TaqMan
+desc1: format: texte, 5'-3'
+desc2: ex: AACGTATTC ou NA]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -97,7 +114,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="plateNumber" mc="Standard.Attribute" uid="c6db4c72-1214-498f-a9c5-ffadb0dde809"/>
+          <ID name="plateName" mc="Standard.Attribute" uid="c6db4c72-1214-498f-a9c5-ffadb0dde809"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -111,18 +128,34 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[plateNumber]]></ATT>
+            <ATT name="Name"><![CDATA[plateName]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
               <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
             </LINK>
+            <COMP relation="ConstraintDefinition">
+              <OBJECT>
+                <ID name="" mc="Standard.Constraint" uid="54c4b18c-e7fb-4ab3-a661-233e597c07b4"/>
+                <ATTRIBUTES>
+                  <ATT name="BaseClass"></ATT>
+                  <ATT name="Body"><![CDATA[nullable : NA, LD, LQ
+]]></ATT>
+                  <ATT name="Language"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
             <COMP relation="Descriptor">
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="a6b481cd-f52d-42fa-b211-a4ccb7356a89"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:NumeroPlaque]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Nom de la plaque
+desc1: format: texte
+desc2: ex: MEI-P1]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -162,7 +195,9 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="330b59cd-fc89-424b-8152-e08d1a92bb23"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:PositionDansLaPlaqueOuNumeroLigne]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Position dans la plaque ou numéro de ligne
+desc1: format: texte
+desc2: ex: F8 ou 6]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -198,11 +233,26 @@
             <LINK relation="Type">
               <FOREIGNID name="integer" mc="Standard.DataType" uid="00000004-0000-0009-0000-000000000000"/>
             </LINK>
+            <COMP relation="ConstraintDefinition">
+              <OBJECT>
+                <ID name="" mc="Standard.Constraint" uid="bddc5126-0cfc-445a-ac9d-820873eeabfd"/>
+                <ATTRIBUTES>
+                  <ATT name="BaseClass"></ATT>
+                  <ATT name="Body"><![CDATA[nullable : NA, LD, LQ]]></ATT>
+                  <ATT name="Language"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
             <COMP relation="Descriptor">
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="122185e3-df57-4c7c-bc67-bf90a1d443df"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:NumeroDeColonne]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Numéro de la colonne
+desc1: format: nombre entier
+desc2: ex: 8 ou NA]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -236,13 +286,29 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
-              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+              <FOREIGNID name="float" mc="Standard.DataType" uid="00000004-0000-000b-0000-000000000000"/>
             </LINK>
+            <COMP relation="ConstraintDefinition">
+              <OBJECT>
+                <ID name="" mc="Standard.Constraint" uid="94b3bd39-fdff-470c-9fa5-dd1be413d0ea"/>
+                <ATTRIBUTES>
+                  <ATT name="BaseClass"></ATT>
+                  <ATT name="Body"><![CDATA[nullable : NA, LD, LQ
+]]></ATT>
+                  <ATT name="Language"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
             <COMP relation="Descriptor">
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="3398e950-131a-4962-84dd-fed87d69df59"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:NA ou bien Ct valide]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Résultat Ct
+desc1: format: nombre décimal
+desc2: ex: 24.16 ou NA]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -283,7 +349,9 @@
                 <ID name="" mc="Standard.Constraint" uid="f3f98c3f-f834-4fad-946a-bb73c8600fff"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit:C]]></ATT>
+                  <ATT name="Body"><![CDATA[has unit:celsisus
+nullable : NA, LD, LQ
+]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -295,7 +363,9 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="18a1a21c-22bc-40c7-a250-63bc442b37fb"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:TmReelAmplicon]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Tm réel de l'amplicon
+desc1: format: nombre décimal
+desc2: ex: 78.28 ou NA]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>

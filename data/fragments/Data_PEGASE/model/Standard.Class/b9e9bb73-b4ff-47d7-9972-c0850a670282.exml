@@ -42,7 +42,9 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="02ba60f5-bb7e-40f7-b3f1-4de48dd75ff9"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:NomAmorceSens]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Nom de l'amorce sens
+desc1: format: texte
+desc2: ex: ME1-F]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -82,7 +84,9 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="7e57ac58-4744-45ca-89b7-e8d28ef513bb"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:SequenceAmorceSens]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Sequence de l'amorce sens
+desc1: format: texte, 5'-3'
+desc2: ex: TGGTGACTGATGGAGAACGTATTC ]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -122,7 +126,9 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="7973e582-b278-4465-9aa3-32d0aec07325"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:NomAmorcesAntisens]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Nom de l'amorce antisens
+desc1: format: texte
+desc2: ex: ME1_R]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -162,7 +168,10 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="2aa52497-5292-4a6a-8494-0d1529f55e36"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:SequenceAmorcesAntisens]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Sequence de l'amorce antisens
+desc1: format: texte, 5'-3'
+desc2: ex: CAGGATGACAGGCAGACATTCTT
+]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -215,7 +224,9 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="65555812-ce16-4b41-aa3d-4cb00fa6f903"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:TailleTheoriqueAmplicon]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Taille théorique de l'amplicon
+desc1: format: nombre entier, ne pas spécifier d'unité
+desc2: ex: 85]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -255,7 +266,9 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="0ac295b4-8965-4172-bd4b-c5d6d3ddb95c"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:ProgrammePCR]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Programme PCR
+desc1: format: texte
+desc2: ex: 2min50;20sec95;(3sec95+30sec60)x40;fusioncurve]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -270,7 +283,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="targetSequenceName" mc="Standard.Attribute" uid="dcc45b87-ff22-4f9b-b054-2109cfc589ae"/>
+          <ID name="targetGeneName" mc="Standard.Attribute" uid="dcc45b87-ff22-4f9b-b054-2109cfc589ae"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -284,7 +297,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[targetSequenceName]]></ATT>
+            <ATT name="Name"><![CDATA[targetGeneName]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -295,7 +308,9 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="e74293eb-0df3-42fa-89c4-da9764f159e7"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:NomSequenceCible]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Nom du gène cible
+desc1: format: texte, symbole officiel du gène (HGNC)
+desc2: ex: ME1]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -331,11 +346,27 @@
             <LINK relation="Type">
               <FOREIGNID name="integer" mc="Standard.DataType" uid="00000004-0000-0009-0000-000000000000"/>
             </LINK>
+            <COMP relation="ConstraintDefinition">
+              <OBJECT>
+                <ID name="" mc="Standard.Constraint" uid="a2984722-4382-49a0-9951-85669ff3c6de"/>
+                <ATTRIBUTES>
+                  <ATT name="BaseClass"></ATT>
+                  <ATT name="Body"><![CDATA[has unit : ng
+min>0]]></ATT>
+                  <ATT name="Language"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
             <COMP relation="Descriptor">
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="eefc1cf1-976a-472c-a16c-4705117fa78d"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:Quantite de matrice (ng)]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Quantité de matrice
+desc1: format: nombre décimal, ne pas spécifier d'unité
+desc2: ex: 2.5]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
