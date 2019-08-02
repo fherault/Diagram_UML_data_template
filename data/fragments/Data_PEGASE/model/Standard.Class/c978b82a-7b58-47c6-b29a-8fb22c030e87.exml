@@ -17,6 +17,48 @@
     <DEPENDENCIES>
       <COMP relation="OwnedAttribute">
         <OBJECT>
+          <ID name="resultUnit" mc="Standard.Attribute" uid="a6d4e9fe-de2b-4830-b641-81bc8479f89e"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[resultUnit]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+            </LINK>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="192bd0e1-873d-496b-a04e-732b88c2d211"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[desc: Unité du résultat
+desc1: format: texte
+desc2: ex: mg/ml]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
           <ID name="Acys" mc="Standard.Attribute" uid="b8eff9cf-13c7-4938-be52-ca4fed369c73"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
@@ -43,14 +85,30 @@
                 <ID name="" mc="Standard.Constraint" uid="eb13feed-b0de-48ad-8c30-9d435b897e58"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: g/100g
-min>0
+                  <ATT name="Body"><![CDATA[min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="7213672a-804d-4e34-959b-d8fda36b0b51"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[desc1: format: nombre décimal ou NA
+desc2: 409.935 ou NA]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
               </OBJECT>
             </COMP>
           </DEPENDENCIES>
@@ -82,14 +140,30 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="47c033be-c3f0-469b-bba3-607ec8bd4c4b"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: g/100g
-min>0
+                  <ATT name="Body"><![CDATA[min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="6f1cd70d-15f2-4052-9a8f-6956ffa575c1"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[desc1: format: nombre décimal ou NA
+desc2: 409.935 ou NA]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
               </OBJECT>
             </COMP>
           </DEPENDENCIES>
@@ -121,14 +195,30 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="1dd67459-1986-4491-921a-6fab63a1a8ed"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: g/100g
-min>0
+                  <ATT name="Body"><![CDATA[min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="d99d2094-33e3-484b-985f-94c639eeb08d"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[desc1: format: nombre décimal ou NA
+desc2: 409.935 ou NA]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
               </OBJECT>
             </COMP>
           </DEPENDENCIES>
@@ -160,14 +250,30 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="e4ee3f20-9fb6-419e-812c-c3cc1a80a728"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: g/100g
-min>0
+                  <ATT name="Body"><![CDATA[min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="b0ca862b-bdf3-4f4e-af55-77d1a0c93dbf"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[desc1: format: nombre décimal ou NA
+desc2: 409.935 ou NA]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
               </OBJECT>
             </COMP>
           </DEPENDENCIES>
@@ -199,14 +305,30 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="aabc2190-58c0-4bbb-8435-3431e6987fb4"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: g/100g
-min>0
+                  <ATT name="Body"><![CDATA[min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="f556aa68-9453-4308-88d4-6258c6496f8b"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[desc1: format: nombre décimal ou NA
+desc2: 409.935 ou NA]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
               </OBJECT>
             </COMP>
           </DEPENDENCIES>
@@ -238,14 +360,30 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="fbf86343-6790-4db2-833e-a6bdede8a84f"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: g/100g
-min>0
+                  <ATT name="Body"><![CDATA[min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="7367478c-e399-4435-b83f-afff89e8fa86"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[desc1: format: nombre décimal ou NA
+desc2: 409.935 ou NA]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
               </OBJECT>
             </COMP>
           </DEPENDENCIES>
@@ -277,14 +415,30 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="d0ad6d7a-26e6-49d0-b78f-a5c2b1bea7e7"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: g/100g
-min>0
+                  <ATT name="Body"><![CDATA[min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="8a057474-2ef1-47d1-8e8b-46d841555c56"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[desc1: format: nombre décimal ou NA
+desc2: 409.935 ou NA]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
               </OBJECT>
             </COMP>
           </DEPENDENCIES>
@@ -316,14 +470,30 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="86ea7e03-da52-424d-9104-550af75c8f6d"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: g/100g
-min>0
+                  <ATT name="Body"><![CDATA[min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="686c8d76-a3b9-44ed-a9f6-9c0801b47b7e"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[desc1: format: nombre décimal ou NA
+desc2: 409.935 ou NA]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
               </OBJECT>
             </COMP>
           </DEPENDENCIES>
@@ -355,14 +525,30 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="7c8c9770-becc-4575-b69c-447c10ac69fb"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: g/100g
-min>0
+                  <ATT name="Body"><![CDATA[min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="e18da351-df48-4ca5-802b-d4c8c7b4b8f9"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[desc1: format: nombre décimal ou NA
+desc2: 409.935 ou NA]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
               </OBJECT>
             </COMP>
           </DEPENDENCIES>
@@ -394,14 +580,30 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="e5418cff-9e35-4d0a-af6e-62120307700d"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: g/100g
-min>0
+                  <ATT name="Body"><![CDATA[min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="c4c4efa1-2373-454d-a4f7-ff2f57271b55"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[desc1: format: nombre décimal ou NA
+desc2: 409.935 ou NA]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
               </OBJECT>
             </COMP>
           </DEPENDENCIES>
@@ -433,14 +635,30 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="ad2a703c-3c88-44e9-8f8d-afc5e36f8ce0"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: g/100g
-min>0
+                  <ATT name="Body"><![CDATA[min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="086df45a-340b-4c29-8a20-3f7123ff8f2c"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[desc1: format: nombre décimal ou NA
+desc2: 409.935 ou NA]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
               </OBJECT>
             </COMP>
           </DEPENDENCIES>
@@ -472,14 +690,30 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="1d6852c4-c343-4bff-82fd-8c973f1f27b7"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: g/100g
-min>0
+                  <ATT name="Body"><![CDATA[min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="7106ea61-7e42-40cb-b02e-9e8252a7fb1c"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[desc1: format: nombre décimal ou NA
+desc2: 409.935 ou NA]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
               </OBJECT>
             </COMP>
           </DEPENDENCIES>
@@ -511,14 +745,30 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="506ad5d8-da88-4c30-8d94-ff9b1900fe93"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: g/100g
-min>0
+                  <ATT name="Body"><![CDATA[min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="dd5a66d7-8784-46fd-b470-cd32c4ac6b39"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[desc1: format: nombre décimal ou NA
+desc2: 409.935 ou NA]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
               </OBJECT>
             </COMP>
           </DEPENDENCIES>
@@ -550,14 +800,30 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="640c13a5-d5c1-440d-ba39-e79ef21bf1a6"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: g/100g
-min>0
+                  <ATT name="Body"><![CDATA[min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="bc370816-c6b7-4e31-87db-07024d9008ea"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[desc1: format: nombre décimal ou NA
+desc2: 409.935 ou NA]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
               </OBJECT>
             </COMP>
           </DEPENDENCIES>
@@ -589,14 +855,30 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="90668248-08a5-439a-b2bb-d88cf3d9f0a8"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: g/100g
-min>0
+                  <ATT name="Body"><![CDATA[min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="afc237d3-c624-4c19-aa56-b056ac323dc6"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[desc1: format: nombre décimal ou NA
+desc2: 409.935 ou NA]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
               </OBJECT>
             </COMP>
           </DEPENDENCIES>
@@ -628,14 +910,30 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="2069f765-eec1-4db0-98a4-d80f63d4eaf6"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: g/100g
-min>0
+                  <ATT name="Body"><![CDATA[min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="50bf59c3-69ad-44ad-a66b-42d7bd98e273"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[desc1: format: nombre décimal ou NA
+desc2: 409.935 ou NA]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
               </OBJECT>
             </COMP>
           </DEPENDENCIES>
@@ -667,14 +965,30 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="7673cfc9-11d2-49fb-af12-c1ec7e980b07"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: g/100g
-min>0
+                  <ATT name="Body"><![CDATA[min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="b58a1296-5f47-4b83-a06d-3ace5acfc7b0"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[desc1: format: nombre décimal ou NA
+desc2: 409.935 ou NA]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
               </OBJECT>
             </COMP>
           </DEPENDENCIES>
@@ -706,14 +1020,30 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="03c1d1c7-4eb0-4a47-acf3-4a83f65b1683"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: g/100g
-min>0
+                  <ATT name="Body"><![CDATA[min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="177eb0d9-3708-41c0-b9f2-1c7be0d1793c"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[desc1: format: nombre décimal ou NA
+desc2: 409.935 ou NA]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
               </OBJECT>
             </COMP>
           </DEPENDENCIES>
@@ -745,14 +1075,30 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="36b4da4f-b509-4f83-bad5-8e0faff81d77"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: g/100g
-min>0
+                  <ATT name="Body"><![CDATA[min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="7112101a-d4d5-49e6-809f-e26a2f4e65e0"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[desc1: format: nombre décimal ou NA
+desc2: 409.935 ou NA]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
               </OBJECT>
             </COMP>
           </DEPENDENCIES>
@@ -784,14 +1130,30 @@ nullable: NA, LD, LQ]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="2b843d19-bba0-4a6c-9813-bdcb91757ce8"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: g/100g
-min>0
+                  <ATT name="Body"><![CDATA[min>0
 nullable: NA, LD, LQ]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="aeaad6b2-281a-4e76-bfb6-d186d7924465"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[desc1: format: nombre décimal ou NA
+desc2: 409.935 ou NA]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
               </OBJECT>
             </COMP>
           </DEPENDENCIES>
