@@ -55,7 +55,9 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="4d8c91a9-ff44-4a46-a23c-c1ea47fe166d"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:Inclusion]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Type d'inclusion
+desc1: format: texte
+desc2: ex: Parafine]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -95,7 +97,9 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="b967cd8a-82e0-473a-beb4-2ef220899eac"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:Fixation]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Type de fixation
+desc1: format: texte
+desc2: ex: ...]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -148,7 +152,9 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="d5c2d09a-e1d7-4db6-9342-0d7e257360c5"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:EpaisseurCoupe]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Epaisseur de la coupe
+desc1: format: texte
+desc2: ex: 1 µm]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -188,7 +194,9 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="ca0899e6-1c2c-415d-abf8-5ac4b4137a4e"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:Grossissement]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Grossissement
+desc1: format: nombre entier
+desc2: ex: 10.0]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -241,7 +249,9 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="3358d094-0b13-48e0-a1ea-cea44876a025"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:ResolutionImage]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Resolution de l'image (pixel/µm)
+desc1: format: nombre entier
+desc2: ex: 250]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -281,7 +291,9 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="98a336d6-1e31-42a2-9a15-dd91b00fa394"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:MumeroImage]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Nom de l'image
+desc1: format: texte
+desc2: ex:...]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -321,7 +333,9 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="db0c384a-a228-4393-baf5-ce1d90356597"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc:NomOrganite]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Nom de l'organite
+desc1: format: texte
+desc2: ex: mitochondrie]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
