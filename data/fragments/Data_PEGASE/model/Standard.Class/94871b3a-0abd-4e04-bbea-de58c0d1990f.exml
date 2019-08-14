@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="HPLC" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="hplc" version="4">
   <OBJECT>
-    <ID name="HPLC" mc="Standard.Class" uid="94871b3a-0abd-4e04-bbea-de58c0d1990f"/>
+    <ID name="hplc" mc="Standard.Class" uid="94871b3a-0abd-4e04-bbea-de58c0d1990f"/>
     <PID name="project1_test" mc="Standard.Package" uid="1659c626-5d02-4f8a-b4ba-24bce7848e7b"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[HPLC]]></ATT>
+      <ATT name="Name"><![CDATA[hplc]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -56,8 +56,8 @@
                 <ID name="" mc="Infrastructure.Note" uid="9c20b823-1884-4345-a917-c8521f959d28"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Prise d'essai
-desc1: format: nombre décimal, ne pas spécifier d'unité
-desc2: ex: 2.0]]></ATT>
+desc2: format: nombre décimal, ne pas spécifier d'unité
+desc3: ex: 2.0]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -98,8 +98,50 @@ desc2: ex: 2.0]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="1251af1d-ec67-40f4-8fb2-769952b2d5ae"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Unité de mesure de la prise d’essai
+desc2: format: texte
+desc3: ex: mg]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="resultUnit" mc="Standard.Attribute" uid="a6d4e9fe-de2b-4830-b641-81bc8479f89e"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[resultUnit]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+            </LINK>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="192bd0e1-873d-496b-a04e-732b88c2d211"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[desc: Unité du résultat
 desc1: format: texte
-desc2: ex: mg]]></ATT>
+desc2: ex: mg/ml]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>

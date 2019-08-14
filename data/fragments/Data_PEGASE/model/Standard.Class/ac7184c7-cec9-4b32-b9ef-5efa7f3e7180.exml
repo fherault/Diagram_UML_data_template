@@ -17,6 +17,48 @@
     <DEPENDENCIES>
       <COMP relation="OwnedAttribute">
         <OBJECT>
+          <ID name="samplePreparationDate" mc="Standard.Attribute" uid="85718979-c54b-4cf4-a87b-f76982e0236c"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[samplePreparationDate]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="date" mc="Standard.DataType" uid="00000004-0000-0014-0000-000000000000"/>
+            </LINK>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="bffe745f-59ba-4632-8f01-0d300b8f27c0"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[desc: Date de préparation de l'échantillon
+desc2:  format: jj/mm/aaa
+desc3: ex: 12/06/2019]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
           <ID name="Androstenone" mc="Standard.Attribute" uid="b1ea777c-d4d1-468c-bcde-c8dd16cc1163"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
@@ -56,8 +98,8 @@ nullable: NA, LD, LQ]]></ATT>
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="aba69779-a5f7-4e36-b54f-0e5ce6ee44e7"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc1: format: nombre décimal ou NA
-desc2: 409.935 ou NA]]></ATT>
+                  <ATT name="Content"><![CDATA[desc2: format: nombre décimal ou NA
+desc3: 409.935 ou NA]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -111,8 +153,8 @@ nullable: NA, LD, LQ]]></ATT>
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="bf10a4c2-23eb-4035-81e1-393c5c0cfa79"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc1: format: nombre décimal ou NA
-desc2: 409.935 ou NA]]></ATT>
+                  <ATT name="Content"><![CDATA[desc2: format: nombre décimal ou NA
+desc3: 409.935 ou NA]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -166,8 +208,8 @@ nullable: NA, LD, LQ]]></ATT>
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="a041e4f8-d98c-44f1-870d-dbefe3fe2daa"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc1: format: nombre décimal ou NA
-desc2: 409.935 ou NA]]></ATT>
+                  <ATT name="Content"><![CDATA[desc2: format: nombre décimal ou NA
+desc3: 409.935 ou NA]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -205,7 +247,7 @@ desc2: 409.935 ou NA]]></ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="HPLC" mc="Standard.Class" uid="94871b3a-0abd-4e04-bbea-de58c0d1990f"/>
+              <ID name="hplc" mc="Standard.Class" uid="94871b3a-0abd-4e04-bbea-de58c0d1990f"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

@@ -57,8 +57,8 @@
                 <ID name="" mc="Infrastructure.Note" uid="94783cab-5d61-452b-a61f-a5a0c896749e"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Taille réel de l'amplicon
-desc1: format: nombre décimal, ne pas spécifier d'unité
-desc2: ex: 1.25 ou NA]]></ATT>
+desc2: format: nombre décimal, ne pas spécifier d'unité
+desc3: ex: 1.25 ou NA]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -112,8 +112,8 @@ desc2: ex: 1.25 ou NA]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="b7de1b09-f8c7-46e2-9588-1e017817add0"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Unité de mesure de taille de l'amplicon
-desc1: format: texte
-desc2: ex: kb ou NA]]></ATT>
+desc2: format: texte
+desc3: ex: kb ou NA]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>

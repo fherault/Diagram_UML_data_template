@@ -17,7 +17,7 @@
     <DEPENDENCIES>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="date" mc="Standard.Attribute" uid="9fb126f3-c4b7-4af2-be3b-325365cf684c"/>
+          <ID name="analysisDate" mc="Standard.Attribute" uid="9fb126f3-c4b7-4af2-be3b-325365cf684c"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -31,7 +31,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[date]]></ATT>
+            <ATT name="Name"><![CDATA[analysisDate]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -42,9 +42,9 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="482e5232-a6b1-4a0c-8bd3-755978741b85"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc: Date
-desc1: format:  jj/mm/aaa
-desc2: ex:12/16/2019]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Date de l'analyse
+desc2: format:  jj/mm/aaa
+desc3: ex: 12/06/2019]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -85,8 +85,8 @@ desc2: ex:12/16/2019]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="fe5e5a32-04ed-4400-917c-82d6edf74749"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Manipulateur
-desc1: format: texte, identifiant LDAP
-desc2: ex: fherault]]></ATT>
+desc2: format: texte, identifiant LDAP
+desc3: ex: fherault]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -126,9 +126,9 @@ desc2: ex: fherault]]></ATT>
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="d2f92586-668f-45ee-b01f-843f6f1f10db"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc: Code Mode Operatoire de Laboratoire
-desc1: format: texte, MO-LAB-XXX
-desc2: ex:  MO-LAB-029 ou MO-LAB-NA si pas de code]]></ATT>
+                  <ATT name="Content"><![CDATA[2esc: Code Mode Operatoire de Laboratoire
+desc1: format: texte, MO-LAB-XXX, si plusieurs MO-LAB utiliser des ";" pour les séparer
+desc3: ex:  MO-LAB-029 ou MO-LAB-NA si pas de code]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -184,8 +184,8 @@ MO-LAB-006 ou "Dosage enzymatique du glucose par la méthode utilisant la glucos
                 <ID name="" mc="Infrastructure.Note" uid="b29f7bd2-b8bb-41fa-af98-a76a04eb2996"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Nom Mode Operatoire de Laboratoire
-desc1: format: texte
-desc2: ex: Dosage du Glutathion dans les tissus]]></ATT>
+desc2: format: texte, si plusieurs MO-LAB utiliser des ";" pour les séparer
+desc3: ex: Dosage du Glutathion dans les tissus]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -226,8 +226,8 @@ desc2: ex: Dosage du Glutathion dans les tissus]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="f99194d5-aa47-4d33-a859-5f381d2c4a83"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Appareil ou logiciel critique
-desc1: format: texte, si plusieurs appareils/logiciels utiliser des ";"
-desc2: ex: Konélab20; appareil2; appareil3]]></ATT>
+desc2: format: texte, si plusieurs appareils/logiciels utiliser des ";" pour les séparer
+desc3: ex: Konélab20; appareil2; appareil3]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -268,8 +268,8 @@ desc2: ex: Konélab20; appareil2; appareil3]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="e7a6d11d-1560-40cf-ad0a-992936841736"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Fournisseur et ref.  produits critiques
-desc1: format: texte, si plusieurs produits utiliser des ";"
-desc2: ex: THERMO 981304;sCal 981831;Nortrol 981043;Abtrol 981044]]></ATT>
+desc2: format: texte, si plusieurs produits utiliser des ";" pour les séparer
+desc3: ex: THERMO 981304;sCal 981831;Nortrol 981043;Abtrol 981044]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -310,8 +310,8 @@ desc2: ex: THERMO 981304;sCal 981831;Nortrol 981043;Abtrol 981044]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="d9a4ff02-1f0f-4389-9ac7-d636661f578c"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Numéro de lot produits critiques
-desc1: format: texte, si plusieurs produits utiliser des ";". Conserver le même ordre que dans la colonne Référence des produits.
-desc2: ex : S415;G716;H342;H654
+desc2: format: texte, si plusieurs produits utiliser des ";" pour les séparer. Conserver le même ordre que dans la colonne Référence des produits.
+desc3: ex : S415;G716;H342;H654
 ]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
@@ -353,8 +353,8 @@ desc2: ex : S415;G716;H342;H654
                 <ID name="" mc="Infrastructure.Note" uid="edda8739-b4c9-4e9e-8e82-eec7048074d9"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Lieu de stockage des donnees brutes.
-desc1: format: texte
-desc2: ex: \\konelab37\results\]]></ATT>
+desc2: format: texte
+desc3: ex: \\konelab37\results\]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -410,8 +410,8 @@ sous projet et n° d'échantillon incrémenté.]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="17f8081f-d3d6-4ae5-8bcf-cc8c5478eb6a"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Identifiant de l'echantillon
-desc1: format: texte, à définir....
-desc2: ex: ....]]></ATT>
+desc2: format: texte, à définir....
+desc3: ex: ....]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -452,7 +452,7 @@ desc2: ex: ....]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="40737d80-4ea0-4a60-92c3-059c8c14cbb0"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Commentaire
-desc1: format: texte libre]]></ATT>
+desc2: format: texte libre]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>

@@ -43,8 +43,8 @@
                 <ID name="" mc="Infrastructure.Note" uid="d604570b-d81e-4b07-8368-43da52e7c1ec"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Enzyme dosée
-desc1: format: texte
-desc2: ex: ....]]></ATT>
+desc2: format: texte
+desc3: ex: ....]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -98,8 +98,8 @@ desc2: ex: ....]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="82ad8725-b880-47e3-be2b-9cbb4b19f7c7"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Coefficient d'extinction molaire
-desc1: format: nombre décimal
-desc2: ex: 615.0]]></ATT>
+desc2: format: nombre décimal
+desc3: ex: 615.0]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -140,8 +140,8 @@ desc2: ex: 615.0]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="ef217806-9bcf-4e5c-8442-f78e290e691d"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Unité du coefficient d'extinction molaire
-desc1: format: texte
-desc2: ex: L/mol/cm]]></ATT>
+desc2: format: texte
+desc3: ex: L/mol/cm]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>

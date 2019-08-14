@@ -43,8 +43,8 @@
                 <ID name="" mc="Infrastructure.Note" uid="ccb499c2-07d0-4936-998b-24e6a7f25bca"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Métabolite dosé
-desc1: format: texte
-desc2: ex: glucose]]></ATT>
+desc2: format: texte
+desc3: ex: glucose]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>

@@ -57,8 +57,8 @@ min>0]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="e949f517-e053-4144-8325-9a4947a377f7"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Longueur d'onde
-desc1: format: nombre entier, ne pas spécifier d'unité
-desc2: ex: 340]]></ATT>
+desc2: format: nombre entier, ne pas spécifier d'unité
+desc3: ex: 340]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -99,8 +99,8 @@ desc2: ex: 340]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="a114829e-984a-420e-a8d5-5d42d8a68af7"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Gamme de linéarité de la méthode
-desc1: format: alphanumérique XXXX-XXXX, spécifier l'unité.
-desc2: ex: 0-3400 mg/ml]]></ATT>
+desc2: format: alphanumérique XXXX-XXXX, spécifier l'unité.
+desc3: ex: 0-3400 mg/ml]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -115,7 +115,7 @@ desc2: ex: 0-3400 mg/ml]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="coefficientDeterminationR2" mc="Standard.Attribute" uid="7f520164-e9c5-4cfd-8256-f907c3db29fe"/>
+          <ID name="determinationCoefficientR2" mc="Standard.Attribute" uid="7f520164-e9c5-4cfd-8256-f907c3db29fe"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -129,7 +129,7 @@ desc2: ex: 0-3400 mg/ml]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[coefficientDeterminationR2]]></ATT>
+            <ATT name="Name"><![CDATA[determinationCoefficientR2]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -155,8 +155,8 @@ desc2: ex: 0-3400 mg/ml]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="aba3c257-ef43-4155-83f9-b5403d3c7820"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Coefficient de détermination (R2)
-desc1: format: nombre décimal
-desc2: ex: 0.98]]></ATT>
+desc2: format: nombre décimal
+desc3: ex: 0.98]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -197,8 +197,8 @@ desc2: ex: 0.98]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="a13af3bd-af16-4e49-9a91-f6bb941bb048"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Pente de la droite de régression
-desc1: format: nombre décimal
-desc2: ex: 0.0005]]></ATT>
+desc2: format: nombre décimal
+desc3: ex: 0.0005]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -252,8 +252,8 @@ desc2: ex: 0.0005]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="f162b6e3-7b56-4e3a-b72a-7ed2d026433e"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Prise d'essai
-desc1: format: nombre décimal, ne pas spécifier d'unité
-desc2: ex: 2.0]]></ATT>
+desc2: format: nombre décimal, ne pas spécifier d'unité
+desc3: ex: 2.0]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -294,8 +294,8 @@ desc2: ex: 2.0]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="9630bb13-0336-410b-94c8-889183ca5ed8"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Unité de mesure de la prise d’essai
-desc1: format: texte
-desc2: ex: mg]]></ATT>
+desc2: format: texte
+desc3: ex: mg]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -349,8 +349,8 @@ desc2: ex: mg]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="e951ef4e-d5f5-4ba9-b68f-f19571c3ce47"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Facteur de dilution de l'échantillon
-desc1: format: nombre entier
-desc2: ex: 10]]></ATT>
+desc2: format: nombre entier
+desc3: ex: 10]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -415,8 +415,8 @@ desc2: ex: 10]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="0976edc7-df3b-4500-8659-b03e51481fa9"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Valeur de la densité optique mesurée
-desc1: format: nombre décimal ou NA
-desc2: ex: 0.335 ou NA]]></ATT>
+desc2: format: nombre décimal ou NA
+desc3: ex: 0.335 ou NA]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>

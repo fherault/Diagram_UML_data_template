@@ -43,8 +43,8 @@
                 <ID name="" mc="Infrastructure.Note" uid="349a97d7-cd1b-43e0-bce0-6c8a25048a62"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Type de technologie utilisée (Sybr, Taqman)
-desc1: format: texte, si taqman préciser le fluorophore.
-desc2: ex: SYBRGreen ou Taqman FAM]]></ATT>
+desc2: format: texte, si taqman préciser le fluorophore.
+desc3: ex: SYBRGreen ou Taqman FAM]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -98,8 +98,8 @@ desc2: ex: SYBRGreen ou Taqman FAM]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="53fac93d-c42f-4a27-87c6-a2bf395cad09"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Sequence de la sonde TaqMan
-desc1: format: texte, 5'-3'
-desc2: ex: AACGTATTC ou NA]]></ATT>
+desc2: format: texte, 5'-3'
+desc3: ex: AACGTATTC ou NA]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -154,8 +154,8 @@ desc2: ex: AACGTATTC ou NA]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="a6b481cd-f52d-42fa-b211-a4ccb7356a89"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Nom de la plaque
-desc1: format: texte
-desc2: ex: MEI-P1]]></ATT>
+desc2: format: texte
+desc3: ex: MEI-P1]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -196,8 +196,8 @@ desc2: ex: MEI-P1]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="330b59cd-fc89-424b-8152-e08d1a92bb23"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Position dans la plaque ou numéro de ligne
-desc1: format: texte
-desc2: ex: F8 ou 6]]></ATT>
+desc2: format: texte
+desc3: ex: F8 ou 6]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -251,8 +251,8 @@ desc2: ex: F8 ou 6]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="122185e3-df57-4c7c-bc67-bf90a1d443df"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Numéro de la colonne
-desc1: format: nombre entier
-desc2: ex: 8 ou NA]]></ATT>
+desc2: format: nombre entier
+desc3: ex: 8 ou NA]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -307,8 +307,8 @@ desc2: ex: 8 ou NA]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="3398e950-131a-4962-84dd-fed87d69df59"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Résultat Ct
-desc1: format: nombre décimal
-desc2: ex: 24.16 ou NA]]></ATT>
+desc2: format: nombre décimal
+desc3: ex: 24.16 ou NA]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -364,8 +364,8 @@ nullable : NA, LD, LQ
                 <ID name="" mc="Infrastructure.Note" uid="18a1a21c-22bc-40c7-a250-63bc442b37fb"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Tm réel de l'amplicon
-desc1: format: nombre décimal
-desc2: ex: 78.28 ou NA]]></ATT>
+desc2: format: nombre décimal
+desc3: ex: 78.28 ou NA]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>

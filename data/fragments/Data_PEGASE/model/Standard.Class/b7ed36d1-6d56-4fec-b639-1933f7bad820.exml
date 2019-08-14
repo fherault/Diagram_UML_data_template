@@ -57,8 +57,8 @@ min>0]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="dda424f1-6fa9-4343-8fb2-a6afecf7d0f8"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Valeur du blanc réactif
-desc1: format: nombre décimal ou NA
-desc2: ex: 0.001 ou NA]]></ATT>
+desc2: format: nombre décimal ou NA
+desc3: ex: 0.001 ou NA]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -113,8 +113,8 @@ min>0]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="83138048-4eff-4965-bc95-cf458fe104f6"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Valeur du blanc échantillon
-desc1: format : nombre décimal ou NA
-desc2: 0.123ou NA]]></ATT>
+desc2: format : nombre décimal ou NA
+desc3: 0.123ou NA]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -169,8 +169,8 @@ min>0]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="7c8dffc0-eab5-4f7e-853e-dc166ef0d6d5"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Résultat
-desc1: format: nombre décimal ou NA
-desc2: 409.935 ou NA]]></ATT>
+desc2: format: nombre décimal ou NA
+desc3: 409.935 ou NA]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -211,8 +211,8 @@ desc2: 409.935 ou NA]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="024cf560-6a33-4240-bdbb-4c89b8df1308"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Unité du résultat
-desc1: format: texte
-desc2: ex: mg/ml]]></ATT>
+desc2: format: texte
+desc3: ex: mg/ml]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
