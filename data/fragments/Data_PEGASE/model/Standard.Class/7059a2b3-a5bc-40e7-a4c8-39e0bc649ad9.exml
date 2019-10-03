@@ -354,7 +354,7 @@ desc3: ex : S415;G716;H342;H654
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Lieu de stockage des donnees brutes.
 desc2: format: texte
-desc3: ex: \\konelab37\results\]]></ATT>
+desc3: ex: //Konelab37/results/]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>

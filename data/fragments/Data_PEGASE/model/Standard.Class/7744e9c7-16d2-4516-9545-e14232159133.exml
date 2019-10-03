@@ -536,6 +536,9 @@ desc2: ex: 34]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="imaging" mc="Standard.Class" uid="33465591-85de-4fc8-a071-91996b41d370"/>
+      </COMP>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>

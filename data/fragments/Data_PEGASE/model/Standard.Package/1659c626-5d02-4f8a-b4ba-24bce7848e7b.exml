@@ -39,7 +39,6 @@
         <COMPID name="histochemistry" mc="Standard.Class" uid="03191c8e-e79f-4785-a741-d6f4bceef642"/>
         <COMPID name="histology" mc="Standard.Class" uid="7f7e2386-cc41-4d5e-a3b3-3932874c02a5"/>
         <COMPID name="hplcHydrolisedAA" mc="Standard.Class" uid="c978b82a-7b58-47c6-b29a-8fb22c030e87"/>
-        <COMPID name="imaging" mc="Standard.Class" uid="33465591-85de-4fc8-a071-91996b41d370"/>
         <COMPID name="immunohistochemistry" mc="Standard.Class" uid="7744e9c7-16d2-4516-9545-e14232159133"/>
         <COMPID name="lipid" mc="Standard.Class" uid="2d7204d7-2c69-4e68-89d1-9213d2a9c463"/>
         <COMPID name="ndf" mc="Standard.Class" uid="708c51dd-3b1c-41ff-8c5d-e39735424ba7"/>
@@ -60,7 +59,7 @@
         <COMPID name="westernBlot" mc="Standard.Class" uid="d46e105d-35f6-4058-a267-99b45339b3e9"/>
         <COMPID name="zymography" mc="Standard.Class" uid="1e4b3dec-1f34-40fe-9fd4-c313fe76e91f"/>
         <COMPID name="hplcHormone" mc="Standard.Class" uid="ac7184c7-cec9-4b32-b9ef-5efa7f3e7180"/>
-        <COMPID name="HPLC" mc="Standard.Class" uid="94871b3a-0abd-4e04-bbea-de58c0d1990f"/>
+        <COMPID name="hplc" mc="Standard.Class" uid="94871b3a-0abd-4e04-bbea-de58c0d1990f"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="project1_test Class diagram" mc="Standard.ClassDiagram" uid="47ea7deb-550c-4a67-9118-7d7dbabc89db"/>
