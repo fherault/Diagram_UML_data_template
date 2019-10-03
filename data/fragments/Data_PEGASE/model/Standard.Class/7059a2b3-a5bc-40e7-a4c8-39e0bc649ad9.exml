@@ -126,8 +126,8 @@ desc3: ex: fherault]]></ATT>
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="d2f92586-668f-45ee-b01f-843f6f1f10db"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[2esc: Code Mode Operatoire de Laboratoire
-desc1: format: texte, MO-LAB-XXX, si plusieurs MO-LAB utiliser des ";" pour les séparer
+                  <ATT name="Content"><![CDATA[desc: Code Mode Operatoire de Laboratoire
+desc2: format: texte, MO-LAB-XXX, si plusieurs MO-LAB utiliser des ";" pour les séparer
 desc3: ex:  MO-LAB-029 ou MO-LAB-NA si pas de code]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>

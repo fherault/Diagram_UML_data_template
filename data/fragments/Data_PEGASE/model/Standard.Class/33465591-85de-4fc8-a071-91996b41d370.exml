@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="imaging" version="4">
   <OBJECT>
     <ID name="imaging" mc="Standard.Class" uid="33465591-85de-4fc8-a071-91996b41d370"/>
-    <PID name="immunohistochemistry" mc="Standard.Class" uid="7744e9c7-16d2-4516-9545-e14232159133"/>
+    <PID name="project1_test" mc="Standard.Package" uid="1659c626-5d02-4f8a-b4ba-24bce7848e7b"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>

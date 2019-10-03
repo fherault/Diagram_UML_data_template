@@ -140,8 +140,8 @@ desc3: ex: mg]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="192bd0e1-873d-496b-a04e-732b88c2d211"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Unité du résultat
-desc1: format: texte
-desc2: ex: mg/ml]]></ATT>
+desc2: format: texte
+desc3: ex: mg/ml]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>

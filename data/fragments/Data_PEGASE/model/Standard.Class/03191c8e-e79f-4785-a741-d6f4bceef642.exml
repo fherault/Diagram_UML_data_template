@@ -43,8 +43,8 @@
                 <ID name="" mc="Infrastructure.Note" uid="651a9ddd-49a2-4459-b7fb-03faee76ef71"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Unité de mesure des surfaces
-desc1: format: texte
-desc2: ex: µm²]]></ATT>
+desc2: format: texte
+desc3: ex: µm²]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -85,8 +85,8 @@ desc2: ex: µm²]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="8b5d9e7a-16c3-480e-9b81-622c0c00f0af"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Seuil de surface totale
-desc1: format: nombre entier, ne pas spécifier d'unité
-desc2: ex: 25]]></ATT>
+desc2: format: nombre entier, ne pas spécifier d'unité
+desc3: ex: 25]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -127,8 +127,8 @@ desc2: ex: 25]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="cd3e700a-a971-4c69-a455-44f21f22a2af"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Surface totale
-desc1: format: nombre décimal, ne pas spécifier d'unité
-desc2: ex: ...]]></ATT>
+desc2: format: nombre décimal, ne pas spécifier d'unité
+desc3: ex: ...]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -183,8 +183,8 @@ desc2: ex: ...]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="07e823dc-55ff-45d6-a3a3-9c3d697a338e"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Seuil cellules sécrétrices
-desc1:  format: nombre entier, ne pas spécifier d'unité
-desc2: ex:... ou NA]]></ATT>
+desc2:  format: nombre entier, ne pas spécifier d'unité
+desc3: ex:... ou NA]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -239,8 +239,8 @@ desc2: ex:... ou NA]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="97e53dcc-b527-4c06-9ec6-8b325883ffef"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Surface de cellules sécrétrices
-desc1:  format: nombre décimal, ne pas spécifier d'unité
-desc2: ex:... ou NA]]></ATT>
+desc2:  format: nombre décimal, ne pas spécifier d'unité
+desc3: ex:... ou NA]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -294,8 +294,8 @@ desc2: ex:... ou NA]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="ae46ef57-0d33-4a02-a1b9-8e574c2f2668"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Seuil cellules adipeuses
-desc1:  format: nombre entier, ne pas spécifier d'unité
-desc2: ex:... ou NA]]></ATT>
+desc2:  format: nombre entier, ne pas spécifier d'unité
+desc3: ex:... ou NA]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -349,8 +349,8 @@ desc2: ex:... ou NA]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="9c43f768-ff56-4b05-94f0-651a12d698ca"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Surface de cellules adipeuses
-desc1:  format: nombre décimal, ne pas spécifier d'unité
-desc2: ex:... ou NA]]></ATT>
+desc2:  format: nombre décimal, ne pas spécifier d'unité
+desc3: ex:... ou NA]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -404,8 +404,8 @@ desc2: ex:... ou NA]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="e8b3082e-db96-4eb8-9566-681606feb035"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Seuil canaux
-# desc1:  format: nombre entier, ne pas spécifier d'unité
-# desc2: ex:... ou NA]]></ATT>
+desc2:  format: nombre entier, ne pas spécifier d'unité
+desc3: ex:... ou NA]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -459,8 +459,8 @@ desc2: ex:... ou NA]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="3389b1dd-2610-45c1-aba9-0a387b629226"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Surface de canaux
-# desc1:  format: nombre décimal, ne pas spécifier d'unité
-# desc2: ex:... ou NA]]></ATT>
+desc2:  format: nombre décimal, ne pas spécifier d'unité
+desc3: ex:... ou NA]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
