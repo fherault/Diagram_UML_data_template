@@ -447,6 +447,19 @@ desc3: ex: ....]]></ATT>
             <LINK relation="Type">
               <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
             </LINK>
+            <COMP relation="ConstraintDefinition">
+              <OBJECT>
+                <ID name="" mc="Standard.Constraint" uid="d5a7b8d3-e612-4672-a03f-758e0428c8ce"/>
+                <ATTRIBUTES>
+                  <ATT name="BaseClass"></ATT>
+                  <ATT name="Body"><![CDATA[Ordered(rindex=1)]]></ATT>
+                  <ATT name="Language"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
             <COMP relation="Descriptor">
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="40737d80-4ea0-4a60-92c3-059c8c14cbb0"/>

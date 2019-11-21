@@ -42,9 +42,9 @@
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="17d71c73-7a54-4148-b5c6-8b100eff11fd"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc: Nom de l’anticorps primaire
-desc2: format: texte
-desc3: ex: ...]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Nom de l’anticorps primaire ou de l'enzyme
+desc2: format: texte  nom de l'anticorps ou de l'enzyme
+desc3: ex: RTDT]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -120,15 +120,15 @@ desc3: ex: ...]]></ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
-              <FOREIGNID name="integer" mc="Standard.DataType" uid="00000004-0000-0009-0000-000000000000"/>
+              <FOREIGNID name="float" mc="Standard.DataType" uid="00000004-0000-000b-0000-000000000000"/>
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="7da12cee-6bed-441e-9c0b-65f46163746c"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Facteur de dilution de l'anticorps primaire
-desc2: format: nombre entier
-desc3: ex: 10]]></ATT>
+desc2: format: nombre décimal
+desc3: ex: 0.5]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -253,8 +253,63 @@ desc3: ex: ...]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="f9eb18cc-6e0f-4a4e-92e3-fed6d2838293"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Facteur de dilution de l'anticorps secondaire
-desc2: format: nombre entier
-desc3: ex: 10]]></ATT>
+desc2: format: nombre décimal
+desc3: ex: 2.5]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="dapiExposureTime" mc="Standard.Attribute" uid="fa801d47-6c97-4df4-96a3-0598d953a990"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[dapiExposureTime]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+            </LINK>
+            <COMP relation="ConstraintDefinition">
+              <OBJECT>
+                <ID name="" mc="Standard.Constraint" uid="bdfda1b6-616f-46fb-9d0e-04e01dba31c9"/>
+                <ATTRIBUTES>
+                  <ATT name="BaseClass"></ATT>
+                  <ATT name="Body"><![CDATA[has unit: ms]]></ATT>
+                  <ATT name="Language"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="cbd15b58-bd91-4c94-aed3-ac1f9f306b22"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[desc: Temps d'exposition du DAPI
+desc2: format: float
+desc3: ex: 150]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -290,13 +345,26 @@ desc3: ex: 10]]></ATT>
             <LINK relation="Type">
               <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
             </LINK>
+            <COMP relation="ConstraintDefinition">
+              <OBJECT>
+                <ID name="" mc="Standard.Constraint" uid="220e5f21-179d-4d28-a374-ecaa8a71f983"/>
+                <ATTRIBUTES>
+                  <ATT name="BaseClass"></ATT>
+                  <ATT name="Body"><![CDATA[has unit: ms]]></ATT>
+                  <ATT name="Language"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
             <COMP relation="Descriptor">
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="6ba61eb3-f889-4ada-a3c8-db0e232ce579"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Temps d'exposition de l'anticorps secondaire
-desc2: format: texte
-desc3: ex: 2 minutes]]></ATT>
+desc2: format: nombre décimal
+desc3: ex: 50]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -338,7 +406,7 @@ desc3: ex: 2 minutes]]></ATT>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Seuil de comptage de cellules nuclées
 desc2: format: nombre entier
-desc3: ex ...]]></ATT>
+desc3: ex: 5]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -380,7 +448,7 @@ desc3: ex ...]]></ATT>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Nombre total de cellules nucléés
 desc2: format: nombre entier
-desc3: ex: ...]]></ATT>
+desc3: ex: 1571]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -421,8 +489,8 @@ desc3: ex: ...]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="9e8c2341-c54a-4eeb-bbbf-f96d827e0316"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Seuil pour les cellules marquées
-desc2: format: nombre entier
-desc3: ex ...]]></ATT>
+desc2: format: nombre entier, 0 si visuel
+desc3: ex 10]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -464,7 +532,7 @@ desc3: ex ...]]></ATT>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Gamme de diamètre de mesure des particules
 desc2: format: texte
-desc3: ex: ...]]></ATT>
+desc3: ex: C:0.3-1 ; pixel : 200-1200]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>

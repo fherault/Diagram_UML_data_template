@@ -99,7 +99,7 @@ desc3: ex: Parafine]]></ATT>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Type de fixation
 desc2: format: texte
-desc3: ex: ...]]></ATT>
+desc3: ex: Paraformaldehyde]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -211,6 +211,61 @@ desc3: ex: 10.0]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
+          <ID name="pictureSize" mc="Standard.Attribute" uid="ba5aea86-98db-41a6-a49d-a6faeacac253"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[pictureSize]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="integer" mc="Standard.DataType" uid="00000004-0000-0009-0000-000000000000"/>
+            </LINK>
+            <COMP relation="ConstraintDefinition">
+              <OBJECT>
+                <ID name="" mc="Standard.Constraint" uid="1faa7141-755e-4959-896d-b645b897366d"/>
+                <ATTRIBUTES>
+                  <ATT name="BaseClass"></ATT>
+                  <ATT name="Body"><![CDATA[has unit: µm]]></ATT>
+                  <ATT name="Language"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="9b0455a2-0543-4963-ba19-5fdeedb7ac32"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[desc: Taille de l'image
+desc2: format: nombre entier, ne pas spécifier l'unité
+desc3: ex: 250]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
           <ID name="pictureResolution" mc="Standard.Attribute" uid="853f9077-06de-4a12-8400-e0dbffb42904"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
@@ -237,7 +292,7 @@ desc3: ex: 10.0]]></ATT>
                 <ID name="" mc="Standard.Constraint" uid="2e82e25a-f703-40eb-9ba5-1f3b4cea236a"/>
                 <ATTRIBUTES>
                   <ATT name="BaseClass"></ATT>
-                  <ATT name="Body"><![CDATA[has unit: pixel/µm]]></ATT>
+                  <ATT name="Body"><![CDATA[has unit: µm/pixel]]></ATT>
                   <ATT name="Language"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -249,9 +304,9 @@ desc3: ex: 10.0]]></ATT>
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="3358d094-0b13-48e0-a1ea-cea44876a025"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[desc: Resolution de l'image (pixel/µm)
-desc2: format: nombre entier
-desc3: ex: 250]]></ATT>
+                  <ATT name="Content"><![CDATA[desc: Resolution de l'image (µm/pixel)
+desc2: format: nombre décimal
+desc3: ex: 0.33]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -293,7 +348,7 @@ desc3: ex: 250]]></ATT>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Nom de l'image
 desc2: format: texte
-desc3: ex:...]]></ATT>
+desc3: ex: ch5138N1]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
