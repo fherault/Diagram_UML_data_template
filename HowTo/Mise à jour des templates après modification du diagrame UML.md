@@ -26,7 +26,9 @@ Après modification du diagramme UML il est nécessaire de mettre à jour les te
 
 1. Se placer dans le repertoire: /home/fherault/modelio/workspace/Diagram_UML_data_template
 2. Ouvrir une fenêtre de commande
-3. faire un git:
+3. copier les template généré dans le répertoire template_pegase_v1
+   - cp ./script/template_gen/* ./template_pegase_v1/
+4. faire un git:
    - git status: pour voir les fichier suivi et non suivis
    - git add pour ajouter des repertores ou fichier
    - git commit -m “mon message” pour soumettre les modif à git
