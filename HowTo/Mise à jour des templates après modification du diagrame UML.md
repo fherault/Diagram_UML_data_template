@@ -20,7 +20,7 @@ Après modification du diagramme UML il est nécessaire de mettre à jour les te
 2. Ouvrir une fenêtre de commande
 3. Lancer le premier script: bash create1.sh
 4. Lancer le second script: bash create2.sh
-5. Les templates sont générer dans le répertoire: /home/fherault/modelio/workspace/Diagram_UML_data_template/script/template_gen
+5. Les templates sont généré dans le répertoire: /home/fherault/modelio/workspace/Diagram_UML_data_template/script/template_gen
 
 ## 3) Placer les template dans Git
 

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. -->
+<project basedir="." default="all" name="xmi">
+	<!-- property are variable -->
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="../../../eclipse/eclipse-neon/"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.8"/>
+    <property name="source" value="1.8"/>
+              	 	
+    <property name="dir.buildfile" value="."/>
+	
+	<property name="myjargenerator" value="generator.uml.jpa.jar"/>
+	<property name="dir.root" value="./"/> 
+	
+	 <property name="mygenpegasev1jar" value="model.gen.pegase_v1.jar"/>
+            	
+    <!-- path location point library are use by a target, 
+    	 the path id is the id use in target to know which library are used by the target
+    	 optimisation possible par include lib/*.jar-->
+    <path id="xmi.classpath">
+        <pathelement location="bin"/>
+      
+        <pathelement location="lib/dom4j-1.4.jar"/>
+        <pathelement location="lib/jaxen-core.jar"/>
+        <pathelement location="lib/jaxen-jdom.jar"/>
+        <pathelement location="lib/jdom.jar"/>
+        <pathelement location="lib/junit-3.8.1.jar"/>
+        <pathelement location="lib/log4j-1.2.8.jar"/>
+        <pathelement location="lib/test-framework.jar"/>
+        <pathelement location="lib/org.eclipse.emf.common-2.12.0.jar"/>
+        <pathelement location="lib/org.eclipse.uml2.uml-5.0.1.v20140910-1354.jar"/>
+        <pathelement location="lib/org.eclipse.emf.ecore.xmi-2.12.0.jar"/>
+        <pathelement location="lib/types-2.0.0-v20140602-0749.jar"/>
+        <pathelement location="lib/org.eclipse.uml2.common-2.0.1.v20140910-1354.jar"/>
+        <pathelement location="lib/exporter-2.3.0-v200706262000.jar"/>
+        <pathelement location="lib/converter-2.3.0-v200706262000.jar"/>
+        <pathelement location="lib/org.eclipse.emf.codegen.ecore-2.12.0.jar"/>
+        <pathelement location="lib/org.eclipse.emf.ecore-2.12.0.jar"/>
+        <pathelement location="lib/resources-4.1.0-v20130902-0826.jar"/>
+        <pathelement location="lib/epsilon-emf-1.4.0.jar"/>
+        <pathelement location="lib/epsilon-core-1.4.0.jar"/>
+        <pathelement location="lib/l2-1.1.0-v20140202-2055.jar"/>
+        <pathelement location="lib/l3-1.1.0-v20140202-2055.jar"/>
+        <pathelement location="lib/ecore2xml-2.3.0-v200706262000.jar"/>
+        <pathelement location="lib/epsilon-uml-1.4.0.jar"/>
+        <pathelement location="lib/args4j-2.33.jar"/>
+    	
+    </path>
+              	      	
+    <path id="gen.classpath"> <!-- this jar are used to generate the output-file.jar of the uml2jpa project -->
+        <pathelement location="libgen/validation-api-2.0.1.Final.jar" />
+    	<pathelement location="libgen/jenabean-1.0.6.jar" />
+    	<pathelement location="libgen/jena-2.6.2.jar" />
+    	<pathelement location="libgen/arq-2.8.2.jar" />
+    	<pathelement location="libgen/xref_util.jar" />
+    </path>               	
+
+ 
+	
+ 
+    
+	
+	<target name="create_gen_pegase_v1_jar"> 
+		
+			<echo >
+	     		going to generate   ${mygenpegasev1jar}
+			</echo>
+		<delete file="${mygenpegasev1jar}" />
+		
+		
+		<mkdir dir="bin"/>
+		<exec executable="rm" >
+					  <arg line=" -f bin/*" />
+					</exec>
+		<exec executable="rm" >
+						  <arg line=" -f epsilon/gen/*" />
+						</exec>
+		<exec executable="bash" >
+				  <arg line="generate_PEGASE_V1.sh" />
+				</exec>
+		<exec executable="ls" >
+			  <arg line="-Rl epsilon/gen/" />
+			</exec>
+			
+		
+			<javac  debug="true" debuglevel="${debuglevel}" 
+				destdir="bin/" 
+				includeantruntime="false" 
+				source="${source}" target="${target}">
+				<src path="epsilon/gen/"/> 
+				<classpath refid="xmi.classpath"/> 
+				<classpath refid="gen.classpath"/>
+			</javac>
+		
+		<exec executable="ls" >
+		  <arg line="-Rl bin/" />
+		</exec>
+			<jar destfile="${mygenpegasev1jar}" filesetmanifest="mergewithoutmain">
+		        <fileset dir="bin"/>
+	        </jar>
+		</target>
+	
+ 
+	 
+ 
+</project>
