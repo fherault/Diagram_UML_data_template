@@ -86,7 +86,7 @@ desc3: ex: glucose]]></ATT>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Enzyme utilisée
 desc2: format: texte
-desc3: ex: ]]></ATT>
+desc3: ex: glucose hexokinase]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>

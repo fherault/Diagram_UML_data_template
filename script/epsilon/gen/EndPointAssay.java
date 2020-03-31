@@ -62,7 +62,7 @@ public class EndPointAssay extends EnzymaticActivity {
 	       
 	 
 	      
-	      @Info( description=" Enzyme utilisée", description2=" format: texte", description3=" ex:")
+	      @Info( description=" Enzyme utilisée", description2=" format: texte", description3=" ex: glucose hexokinase")
 	      public String usedEnzyme;
   
 //getter
