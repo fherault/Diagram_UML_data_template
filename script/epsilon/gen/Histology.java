@@ -228,7 +228,7 @@ public class Histology extends Imaging {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@41394595 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@5769e7ae (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String
@@ -247,7 +247,7 @@ public class Histology extends Imaging {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@5769e7ae (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@287f94b1 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String
@@ -266,7 +266,7 @@ public class Histology extends Imaging {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@30b34287 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@62f87c44 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer
@@ -285,7 +285,7 @@ public class Histology extends Imaging {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@62f87c44 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@5149f008 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -304,7 +304,7 @@ public class Histology extends Imaging {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@7072bc39 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@327120c8 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer
@@ -323,7 +323,7 @@ public class Histology extends Imaging {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@5707c1cb (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@ecf9049 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer
@@ -342,7 +342,7 @@ public class Histology extends Imaging {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@ecf9049 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@50305a (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String
@@ -361,7 +361,7 @@ public class Histology extends Imaging {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@50305a (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@41200e0c (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String

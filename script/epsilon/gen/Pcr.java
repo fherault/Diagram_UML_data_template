@@ -225,7 +225,7 @@ public class Pcr extends GeneralAnalysis {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@3aaf4f07 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@5a2f016d (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String
@@ -244,7 +244,7 @@ public class Pcr extends GeneralAnalysis {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@5a2f016d (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@6058e535 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String
@@ -263,7 +263,7 @@ public class Pcr extends GeneralAnalysis {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@6058e535 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@3bb9efbc (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String
@@ -282,7 +282,7 @@ public class Pcr extends GeneralAnalysis {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@3bb9efbc (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@6f6a7463 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String
@@ -301,7 +301,7 @@ public class Pcr extends GeneralAnalysis {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@1bdaa23d (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@50d68830 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer
@@ -320,7 +320,7 @@ public class Pcr extends GeneralAnalysis {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@50d68830 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@3a7704c (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String
@@ -339,7 +339,7 @@ public class Pcr extends GeneralAnalysis {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@3a7704c (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@323e8306 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String
@@ -358,7 +358,7 @@ public class Pcr extends GeneralAnalysis {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@a23a01d (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@3301500b (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer

@@ -195,7 +195,7 @@ public class TwoDGelElectrophoresis extends GelElectrophoresis {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@10567255 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@62577d6 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer
@@ -214,7 +214,7 @@ public class TwoDGelElectrophoresis extends GelElectrophoresis {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@1c4ee95c (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@6b5f8707 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String
@@ -233,7 +233,7 @@ public class TwoDGelElectrophoresis extends GelElectrophoresis {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@5aa360ea (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@5a12c728 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String
@@ -252,7 +252,7 @@ public class TwoDGelElectrophoresis extends GelElectrophoresis {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@e27ba81 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@6e5bfdfc (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String
@@ -271,7 +271,7 @@ public class TwoDGelElectrophoresis extends GelElectrophoresis {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@1556f2dd (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@71652c98 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String
@@ -290,7 +290,7 @@ public class TwoDGelElectrophoresis extends GelElectrophoresis {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@49bd54f7 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@492fc69e (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -309,7 +309,7 @@ public class TwoDGelElectrophoresis extends GelElectrophoresis {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@772485dd (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@2fb68ec6 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String

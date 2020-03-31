@@ -168,7 +168,7 @@ public class FlowCytometry extends GeneralAnalysis {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@3d3f761a (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@3670f00 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String
@@ -187,7 +187,7 @@ public class FlowCytometry extends GeneralAnalysis {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@579d011c (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@46ab18da (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String
@@ -206,7 +206,7 @@ public class FlowCytometry extends GeneralAnalysis {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@452e26d0 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@42257bdd (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String
@@ -225,7 +225,7 @@ public class FlowCytometry extends GeneralAnalysis {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@790174f2 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@687a762c (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String
@@ -244,7 +244,7 @@ public class FlowCytometry extends GeneralAnalysis {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@7689ddef (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@733c423e (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String
@@ -263,7 +263,7 @@ public class FlowCytometry extends GeneralAnalysis {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@1a2e2935 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@70925b45 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer

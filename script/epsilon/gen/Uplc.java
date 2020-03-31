@@ -1254,7 +1254,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@51bde877 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@57dc9128 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1273,7 +1273,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@2fb68ec6 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@6ac4944a (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1292,7 +1292,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@1c65121 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@3ee39da0 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1311,7 +1311,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@17ae98d7 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@c0b41d6 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1330,7 +1330,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@39fc6b2c (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@6d2260db (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1349,7 +1349,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@7cc9ce8 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@3fcdcf (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1368,7 +1368,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@2bffa76d (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@6c44052e (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1387,7 +1387,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@49bf29c6 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@5215cd9a (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1406,7 +1406,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@46292372 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@75201592 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1425,7 +1425,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@530a8454 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@5dda14d0 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1444,7 +1444,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@31198ceb (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@3b4ef7 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1463,7 +1463,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@aa5455e (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@5bbbdd4b (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1482,7 +1482,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@3d9fc57a (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@4a8b5227 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1501,7 +1501,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@5987e932 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@4a67318f (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1520,7 +1520,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@25230246 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@54e81b21 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1539,7 +1539,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@6979efad (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@50cf5a23 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1558,7 +1558,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@17f9344b (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@1af1347d (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1577,7 +1577,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@6650813a (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@2899a8db (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1596,7 +1596,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@273c947f (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@130a0f66 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1615,7 +1615,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@20765ed5 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@2237bada (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1634,7 +1634,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@c1a4620 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@6e0d4a8 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1653,7 +1653,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@12365c88 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@5bf61e67 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1672,7 +1672,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@5710768a (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@251ebf23 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1691,7 +1691,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@30272916 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@15051a0 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1710,7 +1710,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@b273a59 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@61019f59 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1729,7 +1729,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@1b70203f (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@515f4131 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1748,7 +1748,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@b09fac1 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@14c053c6 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1767,7 +1767,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@26f3d90c (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@777c9dc9 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1786,7 +1786,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@4c5204af (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@2472c7d8 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1805,7 +1805,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@30865a90 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@3b809711 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1824,7 +1824,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@73e132e0 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@63034ed1 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1843,7 +1843,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@22175d4f (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@53cdecf6 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1862,7 +1862,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@236ab296 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@7e11ab3d (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1881,7 +1881,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@55a8dc49 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@28f8e165 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1900,7 +1900,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@62b3df3a (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@4d666b41 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1919,7 +1919,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@2392212b (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@3e1162e7 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1938,7 +1938,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@66f66866 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@38600b (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1957,7 +1957,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@30f4b1a6 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@5d52e3ef (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1976,7 +1976,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@6c2f1700 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@4e406694 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -1995,7 +1995,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@721eb7df (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@2b50150 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -2014,7 +2014,7 @@ public class Uplc extends Chromatography {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@553f3b6e (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@6b530eb9 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat

@@ -44,7 +44,7 @@ public class Spectrophotometry extends GeneralAnalysis {
 	      @Size(min = 0 ) 
 	 
 	      
-	      @Info( description=" Longueur d'onde", description2=" format: nombre entier, ne pas spécifier d'unité", description3=" ex: 340")
+	      @Info( description=" Longueur d'onde", description2=" format: nombre entier, ne pas spécifier d'unité (nm)", description3=" ex: 340")
 	      public Integer wavelength;
   
 	    /******************
@@ -262,7 +262,7 @@ public class Spectrophotometry extends GeneralAnalysis {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@4102b1b1 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@271f18d3 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer
@@ -281,7 +281,7 @@ public class Spectrophotometry extends GeneralAnalysis {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@5b69fd74 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@51abf713 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String
@@ -300,7 +300,7 @@ public class Spectrophotometry extends GeneralAnalysis {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@77b325b3 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@315df4bb (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String
@@ -319,7 +319,7 @@ public class Spectrophotometry extends GeneralAnalysis {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@271f18d3 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@25243bc1 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -338,7 +338,7 @@ public class Spectrophotometry extends GeneralAnalysis {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@51abf713 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@4201a617 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -357,7 +357,7 @@ public class Spectrophotometry extends GeneralAnalysis {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@3fc08eec (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@df5f5c0 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat
@@ -376,7 +376,7 @@ public class Spectrophotometry extends GeneralAnalysis {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@25243bc1 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@7a34b7b8 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String
@@ -395,7 +395,7 @@ public class Spectrophotometry extends GeneralAnalysis {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@467f77a5 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@3b65e559 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer
@@ -414,7 +414,7 @@ public class Spectrophotometry extends GeneralAnalysis {
 	     
 	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
 	      classS:PrimitiveTypeImpl
-	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@308a6984 (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@1c05a54d (eProxyURI: pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat)
 	      typeName:
 	      
 	        eProxyURI:pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat

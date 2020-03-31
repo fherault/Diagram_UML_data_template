@@ -41,6 +41,30 @@ public class EndPointAssay extends EnzymaticActivity {
 	      @Info( description=" Métabolite dosé", description2=" format: texte", description3=" ex: glucose")
 	      public String measuredMetabolite;
   
+	    /******************
+	     *0 !!!info usedEnzyme 
+	  
+	   *2 public String usedEnzyme;
+	   *3 type.name : 
+	   *4 type.name(proxyURL) : pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String 
+	   *5 type.class : class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
+	   *6 myType: String
+	   *7 		String
+	  	 **
+	    
+	   *****************/
+	
+	    /**
+	     * declaration usedEnzyme
+	   
+	     */ 
+	   
+	       
+	 
+	      
+	      @Info( description=" Enzyme utilisée", description2=" format: texte", description3=" ex:")
+	      public String usedEnzyme;
+  
 //getter
  
 	    /**
@@ -61,6 +85,25 @@ public class EndPointAssay extends EnzymaticActivity {
 		return this.measuredMetabolite;
 	}
       
+ 
+	    /**
+	     * Gets the value of usedEnzyme
+	     
+	     class:class org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl
+	      classS:PrimitiveTypeImpl
+	      typeToString:org.eclipse.uml2.uml.internal.impl.PrimitiveTypeImpl@514eedd8 (eProxyURI: pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String)
+	      typeName:
+	      
+	        eProxyURI:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String
+	        
+	          nofragment:pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml
+	          fragment:String
+	      
+	     */
+	public String getUsedEnzyme() {
+		return this.usedEnzyme;
+	}
+      
 //setter
    
 	    /**
@@ -68,6 +111,14 @@ public class EndPointAssay extends EnzymaticActivity {
 	     */
 	public void setMeasuredMetabolite(String measuredMetabolite) {
 		this.measuredMetabolite = measuredMetabolite;
+	}
+      
+   
+	    /**
+	     * Sets the value of usedEnzyme
+	     */
+	public void setUsedEnzyme(String usedEnzyme) {
+		this.usedEnzyme = usedEnzyme;
 	}
       
 }

@@ -57,7 +57,7 @@ min>0]]></ATT>
                 <ID name="" mc="Infrastructure.Note" uid="e949f517-e053-4144-8325-9a4947a377f7"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[desc: Longueur d'onde
-desc2: format: nombre entier, ne pas spécifier d'unité
+desc2: format: nombre entier, ne pas spécifier d'unité (nm)
 desc3: ex: 340]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
